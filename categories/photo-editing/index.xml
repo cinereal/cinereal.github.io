@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Photo Editing on CineReal.info</title>
+    <link>http://cinereal.info/categories/photo-editing/</link>
+    <description>Recent content in Photo Editing on CineReal.info</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 19 Feb 2019 04:12:23 -0800</lastBuildDate>
+    
+	<atom:link href="http://cinereal.info/categories/photo-editing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lens Cast Calibration in Capture One</title>
+      <link>http://cinereal.info/article/captureonepart2/</link>
+      <pubDate>Tue, 19 Feb 2019 04:12:23 -0800</pubDate>
+      
+      <guid>http://cinereal.info/article/captureonepart2/</guid>
+      <description>Introduction to Capture One [Part 2] The Lens Menu Lens Cast Calibration (LCC) Lens Cast Calibration as to be done specifically for a shot setup hence it&amp;rsquo;s grayed out until a preset is created and applied. Each lens, camera, setting and lighting situation requires a unique calibration.
+What is Lens Cast Calibration? In short we are trying to minimize the uneven white balance throughout the image introduced due to a various factors.</description>
+    </item>
+    
+    <item>
+      <title>Lens Correction in Capture One</title>
+      <link>http://cinereal.info/article/captureonepart1/</link>
+      <pubDate>Sat, 16 Feb 2019 01:20:13 -0800</pubDate>
+      
+      <guid>http://cinereal.info/article/captureonepart1/</guid>
+      <description>Introduction to Capture One [Part 1] The Lens Menu Lens Correction Depending on your lens and camera you might get either one of the following profiles.
+Manufacturer Profile: Manufacturers supply enough data in the RAW file to generate a profile.
+Lens Specific Profile: Means Capture One has a profile of your lens with additional Sharpness Falloff correction.
+ General Note It&amp;rsquo;s a good idea to set Capture One&amp;rsquo;s default sharpening to 0 while adjusting Chromatic Aberration, Purple Fringing, Diffraction Correction and Sharpness Falloff.</description>
+    </item>
+    
+    <item>
+      <title>New Raw Editor - Capture One</title>
+      <link>http://cinereal.info/article/captureone/</link>
+      <pubDate>Fri, 15 Feb 2019 12:22:57 -0800</pubDate>
+      
+      <guid>http://cinereal.info/article/captureone/</guid>
+      <description>New Camera, New RAW Editor I recently upgraded my camera and thought this was a good opportunity to re-evaluate my choice of RAW editing software. In the past I tried a few open source options, RawTherapee and darktable. They are both pretty good but I was missing a few features that forced me to keep falling back on Photoshop plus Camera RAW and I never got used to the in my view slightly confusing interfaces.</description>
+    </item>
+    
+  </channel>
+</rss>

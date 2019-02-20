@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="generator" content="Hugo 0.53" /><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="CineReal.info - Chris Gloor">
+
+
+<meta name="theme-color" content="#4197e7">
+
+<meta name="msapplication-navbutton-color" content="#006dd3">
+
+<meta name="apple-mobile-web-app-status-bar-style" content="#006dd3">
+<meta http-equiv="cache-control" content="no-cache" />
+<title>Tutorial | CineReal.info</title>
+<link rel="icon" href="/favicon.ico">
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300" />
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:100" />
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css" />
+<link rel="stylesheet" type="text/css" href="http://cinereal.info/css/style.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body><ul class="topnav">
+    <li>
+        <div class="colorbox1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="colorbox">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="colorbox2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="colorbox">&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="colorbox3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="colorbox">&nbsp;&nbsp;&nbsp;</div>
+        <div class="colorbox4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="colorbox">&nbsp;&nbsp;</div>
+        <div class="colorbox5">&nbsp;&nbsp;&nbsp;</div>
+        <div class="colorbox">&nbsp;</div>
+    </li>
+    <li><a class="logo" href="/"><div class="homebutton">CHRIS GLOOR</div></a></li>
+    
+    
+    <li class="right"><a class="sidebar-nav-item" href="/about/" title="About">About</a></li>
+    
+    <li class="right"><a class="sidebar-nav-item" href="/article/" title="">Articles</a></li>
+    
+    <li class="right"><a class="sidebar-nav-item" href="/filmography/" title="Filmography">Filmography</a></li>
+    
+    <li class="right"><a class="sidebar-nav-item" href="/photography/" title="">Photographies</a></li>
+    
+</ul>
+<div class="wrapper">
+        <header class="header" style="background-image: url('http://cinereal.info/images/dsc00776.jpg');"><div class="aspect"></div>
+</header>
+        <article class="content">
+    
+    <h1>Tutorial</h1>
+    
+    <ul>
+        
+         
+            <li>
+                <h2><a href="http://cinereal.info/article/captureonepart2/">Lens Cast Calibration in Capture One</a></h2>
+                
+                
+                <div class="contenttext">
+                    
+
+<h2 id="introduction-to-capture-one-part-2">Introduction to Capture One [Part 2]</h2>
+
+<h3 id="the-lens-menu">The Lens Menu</h3>
+
+<p><img src="/images/captureone/lens.png" alt="The Lens Menu" /></p>
+
+<h3 id="lens-cast-calibration-lcc">Lens Cast Calibration (LCC)</h3>
+
+<p>Lens Cast Calibration as to be done specifically for a shot setup hence it&rsquo;s grayed out until a preset is created and applied. Each lens, camera, setting and lighting situation requires a unique calibration.</p>
+
+<p><img src="/images/captureone/lcc.png" alt="LCC Profile" /></p>
+
+<h3 id="what-is-lens-cast-calibration">What is Lens Cast Calibration?</h3>
+
+<p>In short we are trying to minimize the uneven white balance throughout the image introduced due to a various factors. In many cases we can ignore it since it&rsquo;s not noticeable unless we have a side-by-side comparison. But there are cases where it&rsquo;s important to have an even white balance.</p>
+
+<p>One of these cases are snowy landscapes, which I&rsquo;ve been shooting recently. This type of photography exposes issues in the white balance as illustrated in the photo below.
+See how the color shifts towards the edges into a bluish darker tone?</p>
+
+<p><img src="/images/captureone/nolcc1.jpg" alt="LCC Off Image" /></p>
+
+<p>Wide angle lenses are impacted the most as they gather light from more directions.</p>
+
+<h3 id="how-to-fix-it">How to fix it?</h3>
+
+<p>To fix or lets say reduce this, we can simply photograph a neutral translucent card (hold on before you buy one, below are some free alternatives) with the same setting and lighting as the photo and feed it into Capture One as a LCC preset.</p>
+
+<p>Does that mean you have to take a second photo of a white card after every photo you&rsquo;ve taken?</p>
+
+<p>Luckily we can simplify the process! But there&rsquo;s some factors that need to be considered.
+The LCC changes with the focal length, aperture, focal distance, ISO, lighting, the subject and of course each and every camera and lens.</p>
+
+<h3 id="creating-a-calibration-reference-photo">Creating a calibration reference photo</h3>
+
+<p>On my last trip I shot all my pictures with a Sony A7III camera and a Tamron 28-75mm lens.</p>
+
+<ul>
+<li>Most shots were focused into far distance. Changing the focus mode to manual and focus in near infinity will work for the calibration picture in this case.</li>
+<li>The aperture for most shots was somewhere between f/5.6 and f/12. I went with f/8.</li>
+<li>The ISO was at 50 for almost the whole day.</li>
+<li>Next I needed something that more or less reassembles a Lens Cast Calibration Diffuser. I tried a white plastic bag and a stack of translucent printing paper (don&rsquo;t use standard white printer paper, hold it against the sun and you know why). Both methods worked decent and I went with the translucent paper stack.</li>
+<li>The photos on the trip were shot in sunny to cloudy daylight. So I went outside to take the calibration picture around the same time of the day.</li>
+</ul>
+
+<p>Now that everything was ready I took photos at 28mm, 50mm and 75mm.
+I held the paper right in front of the camera. Remember we set the focus to almost infinite in manual focus mode. Important, we don&rsquo;t want the camera to try to focus on the card.</p>
+
+<p>Angle the camera toward the sun but don&rsquo;t aim into the sun or we definitely get an unwanted falloff. Shooting at a 90 degree angle doesn&rsquo;t work well as it can introduce harsh shadows or reflections. Basically we want an even diffuse light coverage.</p>
+
+<p>And here is the result, we can already see the same kind of bluish darkening as in the snow photo.</p>
+
+<p><img src="/images/captureone/nolcc_28mm.jpg" alt="LCC Off Calibration Image" /></p>
+
+<p>In addition we notice a few dust particles on the sensor. They are on the sensor, dust on the lens would be too blurred out to see. Capture One will also take care of these with the LCC profile (Dust Removal checkbox).</p>
+
+<p>In case you only see an even gray image above, lets stretch the image&rsquo;s values over the full range via Level Tools (This is just to get a temporary visual representation):</p>
+
+<p><img src="/images/captureone/lcc_levels1.png" alt="Histogram LCC On" /></p>
+
+<p><img src="/images/captureone/lcc_levels_28mm.jpg" alt="LCC Off Calibration Image" /></p>
+
+<h3 id="create-an-lcc-preset">Create an LCC Preset</h3>
+
+<p>To create an LCC Preset from given calibration image press Create LCC.</p>
+
+<p><img src="/images/captureone/lcc.png" alt="LCC Profile" /></p>
+
+<p>In the popup we choose Include Dust Removal Information and Create.</p>
+
+<p><img src="/images/captureone/lccoptions.png" alt="LCC Option" /></p>
+
+<p>The before grayed out checkboxes are now active.</p>
+
+<p><img src="/images/captureone/lccactive.png" alt="LCC Option" /></p>
+
+<p>The version with all three checkboxes off:
+In the histogram we can see that there&rsquo;s more blue in certain areas.</p>
+
+<p><img src="/images/captureone/lcc_off_histogram.png" alt="Histogram LCC Off" /></p>
+
+<p><img src="/images/captureone/nolcc_28mm.jpg" alt="LCC Off Calibration Image" />
+<img src="/images/captureone/lcc_levels_28mm.jpg" alt="LCC Off Calibration Image" /></p>
+
+<h4 id="color-cast">Color Cast</h4>
+
+<p>Now we only turn the Color Cast on and see how bluish edges disappear.
+In the histogram there&rsquo;s now equal amounts of all colors but the range is still quite spread out from the bright center to the dark edges.</p>
+
+<p><img src="/images/captureone/lcc_colorcast_histogram.png" alt="Histogram LCC Color Cast" /></p>
+
+<p><img src="/images/captureone/lcc_colorcast_28mm.jpg" alt="LCC Color Cast Calibration Image" />
+<img src="/images/captureone/lcc_levels_colorcast_28mm.jpg" alt="LCC Color Cast Calibration Image" /></p>
+
+<h4 id="uniform-light">Uniform Light</h4>
+
+<p>This one just with the Uniform Light.
+The histogram values immediately get squashed into a very narrow range, which is great news, whole frame is of similar brightness.</p>
+
+<p><img src="/images/captureone/lcc_uniformlight_histogram.png" alt="Histogram LCC Uniform Light" /></p>
+
+<p><img src="/images/captureone/lcc_uniformlight_28mm.jpg" alt="LCC Uniform Light Calibration Image" />
+<img src="/images/captureone/lcc_levels_uniformlight_28mm.jpg" alt="LCC Uniform Light Calibration Image" /></p>
+
+<h4 id="before-and-after">Before and After</h4>
+
+<p>And finally both option combined. The image is almost perfectly uniform.</p>
+
+<p><img src="/images/captureone/lcc_on_28mm.jpg" alt="LCC On Calibration Image" />
+<img src="/images/captureone/lcc_levels_on_28mm.jpg" alt="LCC On Calibration Image" /></p>
+
+<p>It&rsquo;s always good to confirm with the Color Picker tool. Your eye&rsquo;s could always trick you!</p>
+
+<p><img src="/images/captureone/colorpicker.png" alt="LCC Color Picker" /></p>
+
+<p>Lets save the preset.</p>
+
+<p><img src="/images/captureone/lccsavepreset.png" alt="Save LCC Preset" /></p>
+
+<p><img src="/images/captureone/lccsavepreset_all.png" alt="Save LCC Preset" /></p>
+
+<p>Repeat the same for the 50 mm and 75 mm version.</p>
+
+<p><img src="/images/captureone/lccsavepreset1.png" alt="Save LCC Preset" /></p>
+
+<p>Our LCC presets are ready to be deployed onto the actual photos.</p>
+
+<h3 id="example-photos">Example Photos</h3>
+
+<p>Example at 28 mm (left LCC Off / right LCC On)</p>
+
+<p><img src="/images/captureone/nolcc.jpg" alt="LCC Off Image" />
+<img src="/images/captureone/lcc.jpg" alt="LCC On Image" /></p>
+
+<p><img src="/images/captureone/nolcc1.jpg" alt="LCC Off Image" />
+<img src="/images/captureone/lcc1.jpg" alt="LCC On Image" /></p>
+
+<p>Example at 75 mm (left LCC Off / right LCC On)</p>
+
+<p><img src="/images/captureone/nolcc75.jpg" alt="LCC Off Image" />
+<img src="/images/captureone/lcc75.jpg" alt="LCC On Image" /></p>
+
+<p>You might have noticed that the Lens Correction &gt; Light Falloff automatically gets deactivated when the LCC is on.</p>
+
+<p><img src="/images/captureone/lightfalloffoff.png" alt="LCC Light Falloff Off" /></p>
+
+                </div>
+                
+                <span class="tags"><i class="fa fa-user"></i> Chris</span>
+                <span class="tags"><i class="fa fa-tag"></i> <a href="/tags/camera-raw">Camera RAW</a> <a href="/tags/capture-one">Capture One</a> <a href="/tags/phase-one">Phase One</a> <a href="/tags/software">Software</a> <a href="/tags/tutorial">Tutorial</a> </span>
+                <span class="tags"><i class="fa fa-folder-open"></i> <a href="/categories/photo-editing">Photo Editing</a> </span>
+                <span class="tags"><i class="fa fa-calendar"></i> February 19, 2019</span>
+                <hr>
+            </li>
+        
+            <li>
+                <h2><a href="http://cinereal.info/article/captureonepart1/">Lens Correction in Capture One</a></h2>
+                
+                
+                <div class="contenttext">
+                    
+
+<h2 id="introduction-to-capture-one-part-1">Introduction to Capture One [Part 1]</h2>
+
+<h3 id="the-lens-menu">The Lens Menu</h3>
+
+<p><img src="/images/captureone/lens.png" alt="The Lens Menu" /></p>
+
+<h4 id="lens-correction">Lens Correction</h4>
+
+<p>Depending on your lens and camera you might get either one of the following profiles.</p>
+
+<p><strong>Manufacturer Profile:</strong> Manufacturers supply enough data in the RAW file to generate a profile.</p>
+
+<p><strong>Lens Specific Profile:</strong> Means Capture One has a profile of your lens with additional Sharpness Falloff correction.</p>
+
+<p><img src="/images/captureone/lenscorrection.png" alt="Manufacturer Profile" />
+<img src="/images/captureone/lenscorrectionprofile.png" alt="Lens Specific Profile" /></p>
+
+<blockquote>
+<h4 id="general-note">General Note</h4>
+
+<p>It&rsquo;s a good idea to set Capture One&rsquo;s default sharpening to 0 while adjusting Chromatic Aberration, Purple Fringing, Diffraction Correction and Sharpness Falloff.
+(Detail &gt; Sharpening &gt; Amount: 0)</p>
+
+<p><img src="/images/captureone/sharpening.png" alt="Sharpening" /></p>
+</blockquote>
+
+<h4 id="chromatic-aberration">Chromatic Aberration</h4>
+
+<p>Chromatic Aberration is the failure of a lens to focus all colors to the same point. Which causes the beautiful rainbow effects you see below.
+<strong>CA</strong> Off vs On:</p>
+
+<p><img src="/images/captureone/chromaticaberration.jpg" alt="Chromatic Aberration" />
+<img src="/images/captureone/chromaticaberrationfix.jpg" alt="Chromatic Aberration Fix" /></p>
+
+<p><strong>Analyze:</strong> No lens is ever the same as the reference profile so it&rsquo;s always good to quickly run analyze if you notice any issue.
+In the case of the image above I used a macro ring which completely changed the lens characteristics and the correction improved only after analyzing.</p>
+
+<p><img src="/images/captureone/lenscorrectionanalyze.png" alt="Analyze" /></p>
+
+<h4 id="purple-fringing">Purple Fringing</h4>
+
+<p><img src="/images/captureone/purplefringing.png" alt="Purple Fringing On" /></p>
+
+<p>Usually visible in high contrast areas with chromatic aberration and / or lens flares.
+Purple fringing is not always purple, you might see cyan, blue or any other color.
+<strong>Defringe</strong> 0 vs 100:</p>
+
+<p><img src="/images/captureone/purplefringing.jpg" alt="Purple Fringing" />
+<img src="/images/captureone/purplefringingfix.jpg" alt="Purple Fringing Fix" /></p>
+
+<p>Don&rsquo;t just blindly set Chromatic Aberration and Defringe to 100. There is a correlation between these two and one might effect the other.
+Find the visually most pleasing result. Also preview it at 100% scale and you might not the accurate result at a scale less than 1:1.</p>
+
+<h3 id="diffraction-correction">Diffraction Correction</h3>
+
+<p>In order to have the Diffraction Correction working, make sure the the Movement parameters (Focal length and Aperture (f)) are set.</p>
+
+<p><img src="/images/captureone/diffractioncorrection.png" alt="Diffraction Correction" />
+<img src="/images/captureone/lensmovement.png" alt="Movement" /></p>
+
+<p>Diffraction is another optical physics effect that becomes more noticeable at smaller apertures.
+Light waves bend around corners, the smaller the aperture hole the more the effect amplifies.
+As a result the image will get blurrier.</p>
+
+<p>Are you saying the lens is sharpest at the larger apertures? Unfortunately that is not the case because the center of the lens is the best corrected part. With a wide open aperture we get more light traveling through the edges, leading to a lose of sharpness again.</p>
+
+<p>To find out at which aperture your lens is sharpest it&rsquo;s good to test. Also keep in mind the sharpness falls off from the center.
+A good way to test is to put the camera on a tripod and shoot in manual mode with manual focus the same subject. The largest file is the sharpest.
+Remember that Capture One adds sharpening to the image by default, to get a better comparison you want to turn that off (Detail &gt; Sharpening &gt; Amount: 0)</p>
+
+<p>Diffraction Off vs On at f/16:</p>
+
+<p><img src="/images/captureone/diffraction.jpg" alt="Diffraction Off" />
+<img src="/images/captureone/diffractionfix.jpg" alt="Diffraction On" /></p>
+
+<h3 id="distortion">Distortion</h3>
+
+<p>This option as the name suggests will compensate for the Lens Distortion which is most visible on wide angle lenses and in extreme, as the name suggests, on fisheye lenses.</p>
+
+<p><img src="/images/captureone/distortion.png" alt="Distortion" /></p>
+
+<h4 id="hide-distorted-area">Hide Distorted Area</h4>
+
+<p>This will simply hide the leftover bent corners from the un-distortion. I tend to keep it off to make sure Capture One didn&rsquo;t crop in more than needed.
+Below a screenshot with the distortion grid and the distorted area visible.</p>
+
+<p><img src="/images/captureone/distortion.jpg" alt="Distortion Grid" /></p>
+
+<h3 id="sharpness-falloff">Sharpness Falloff</h3>
+
+<blockquote>
+<p>This option is only available if there&rsquo;s a Capture One Profile for your lens.</p>
+</blockquote>
+
+<p>To compensate for the sharpness falloff towards the edges, which is more or less depending on the lens. The center of the image doesn&rsquo;t change or only very little.</p>
+
+<p><img src="/images/captureone/sharpnessfalloff.png" alt="Sharpness Falloff 250" /></p>
+
+<p>Edge of the photo, Sharpness Falloff 0 vs 250:</p>
+
+<p><img src="/images/captureone/sharpnessfalloff.jpg" alt="Sharpness Falloff" />
+<img src="/images/captureone/sharpnessfallofffix.jpg" alt="Sharpness Falloff Fix" /></p>
+
+<p>Center of the photo, Sharpness Falloff 0 vs 250:</p>
+
+<p><img src="/images/captureone/sharpnessfalloffcenter.jpg" alt="Sharpness Falloff Center" />
+<img src="/images/captureone/sharpnessfalloffcenter.jpg" alt="Sharpness Falloff Center Fix" /></p>
+
+<h3 id="light-falloff">Light Falloff</h3>
+
+<p>To compensate the falloff from the center to the edges you can set this to 100. I wouldn&rsquo;t go above 100 or the edges might get brighter than the center. If you decide to add vignetting anyway you might want to slide this back to 0.</p>
+
+<p><img src="/images/captureone/lightfalloff.png" alt="Light Falloff 100" /></p>
+
+<p>Light Falloff 0 vs 100:</p>
+
+<p><img src="/images/captureone/lightfalloff.jpg" alt="Light Falloff" />
+<img src="/images/captureone/lightfallofffix.jpg" alt="Light Falloff Fix" /></p>
+
+                </div>
+                
+                <span class="tags"><i class="fa fa-user"></i> Chris</span>
+                <span class="tags"><i class="fa fa-tag"></i> <a href="/tags/camera-raw">Camera RAW</a> <a href="/tags/capture-one">Capture One</a> <a href="/tags/phase-one">Phase One</a> <a href="/tags/software">Software</a> <a href="/tags/tutorial">Tutorial</a> </span>
+                <span class="tags"><i class="fa fa-folder-open"></i> <a href="/categories/photo-editing">Photo Editing</a> </span>
+                <span class="tags"><i class="fa fa-calendar"></i> February 16, 2019</span>
+                <hr>
+            </li>
+        
+        
+
+    </ul>
+
+        </article>
+        <aside class="sidebar">
+
+
+    
+    <h2>Tutorial</h2>
+    
+    <ul class="tags">
+        
+            
+                <li><a href="http://cinereal.info/article/captureonepart2/">Lens Cast Calibration in Capture One</a></li>
+            
+        
+            
+                <li><a href="http://cinereal.info/article/captureonepart1/">Lens Correction in Capture One</a></li>
+            
+        
+    </ul>
+    <hr>
+
+
+
+
+
+<h2>Categories</h2>
+<div class="tags">
+    <a href="/categories/photo-editing">
+        Photo Editing
+        &#40;3&#41;
+    </a>
+    <a href="/categories/photography">
+        Photography
+        &#40;7&#41;
+    </a>
+    <a href="/categories/web-development">
+        Web Development
+        &#40;1&#41;
+    </a>
+</div>
+<hr>
+<h2>Tags</h2>
+<div class="tags">
+    <a href="/tags/australia">
+        Australia
+        &#40;2&#41;
+    </a>
+    <a href="/tags/butterflies">
+        Butterflies
+        &#40;1&#41;
+    </a>
+    <a href="/tags/camera-raw">
+        Camera Raw
+        &#40;3&#41;
+    </a>
+    <a href="/tags/capture-one">
+        Capture One
+        &#40;2&#41;
+    </a>
+    <a href="/tags/cities">
+        Cities
+        &#40;3&#41;
+    </a>
+    <a href="/tags/hong-kong">
+        Hong Kong
+        &#40;1&#41;
+    </a>
+    <a href="/tags/lights">
+        Lights
+        &#40;3&#41;
+    </a>
+    <a href="/tags/macro-photography">
+        Macro Photography
+        &#40;2&#41;
+    </a>
+    <a href="/tags/nature">
+        Nature
+        &#40;1&#41;
+    </a>
+    <a href="/tags/papiliorama">
+        Papiliorama
+        &#40;1&#41;
+    </a>
+    <a href="/tags/phase-one">
+        Phase One
+        &#40;2&#41;
+    </a>
+    <a href="/tags/refraction">
+        Refraction
+        &#40;1&#41;
+    </a>
+    <a href="/tags/singapore">
+        Singapore
+        &#40;1&#41;
+    </a>
+    <a href="/tags/snow">
+        Snow
+        &#40;1&#41;
+    </a>
+    <a href="/tags/software">
+        Software
+        &#40;3&#41;
+    </a>
+    <a href="/tags/static-site-generators">
+        Static Site Generators
+        &#40;1&#41;
+    </a>
+    <a href="/tags/street-photography">
+        Street Photography
+        &#40;1&#41;
+    </a>
+    <a href="/tags/switzerland">
+        Switzerland
+        &#40;2&#41;
+    </a>
+    <a href="/tags/sydney">
+        Sydney
+        &#40;1&#41;
+    </a>
+    <a href="/tags/tutorial">
+        Tutorial
+        &#40;2&#41;
+    </a>
+    <a href="/tags/website">
+        Website
+        &#40;1&#41;
+    </a>
+    <a href="/tags/wildlife">
+        Wildlife
+        &#40;1&#41;
+    </a>
+    <a href="/tags/winter">
+        Winter
+        &#40;1&#41;
+    </a>
+</div>
+<hr></aside>
+        <footer class="footer footercontent"><ul>
+    <li class="center">
+        <a href="https://github.com/cinereal"><i class="fa fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/chris-gloor-92765623/"><i class="fa fa-linkedin fa-2x"></i></a>
+        <a href="https://www.imdb.com/name/nm4947723"><i class="fa fa-imdb fa-2x"></i></a>
+    </li>
+    <li class="floatleft">Copyright &copy; 2019 - <a href="http://cinereal.info">Chris Gloor</a></li>
+</ul></footer>
+    </div>
+    
+    
+    <script async type="text/javascript"  src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+</body>
+</html>

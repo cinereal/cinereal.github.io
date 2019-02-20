@@ -1,0 +1,484 @@
+*, *::before, *::after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+  
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans', 'sans-serif';
+  font-weight: 300;
+  background-color: #333;
+  color: #ddd;
+}
+
+h1, p {
+  margin: 0 0 1em 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  display: block;
+}
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.25em; }
+h4 { font-size: 1.15em; }
+h5 { font-size: .83em; }
+h6 { font-size: .75em; }
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li.center {
+  display: block;
+  text-align: center;
+  margin: 0.5em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+blockquote {
+  display: block;
+  background-color: #333;
+  border-left: 0.2em solid #006dd3;
+  margin: 0.5em 1em;
+  padding: 0.25em 1.5em;
+}
+
+.tags {
+  color: gray;
+  margin: 0.25em 0.5em;
+  font-size: 0.9em;
+}
+
+.tags > a {
+  background-color: #282828;
+  display: inline-block;
+  border: 1px solid #006dd3;
+  border-radius: 4px;
+  padding: 0px 4px;
+  margin: 2px 0px;
+}
+
+.tags > a:hover {
+  background-color: #333;
+  text-decoration: none;
+  border-color: #5b9ad4;
+}
+
+hr {
+  height:1px;
+  border:none;
+  color:#555;
+  background-color:#555;
+  display: block;
+  margin: 1.5rem 0;
+}
+
+/* default link */
+a:link, a:visited, a:active {
+  /*color: #3581c9;*/
+  color: #4197e7;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #60a8ec;
+}
+
+/* define min height to width ratio for header */
+.aspect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 500px;
+}
+.aspect:before {
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  padding-bottom: 50%;
+}
+
+.footercontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.maincontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenttext ul {
+  margin-left: 1em;
+}
+
+.contenttext li {
+  list-style: circle;
+}
+
+#nostyle {
+  list-style: none;
+}
+
+.contenttext p {
+  margin: 1em 0em;
+}
+
+.gallerygrid li {
+  list-style: none;
+}
+
+.headerpreview {
+  width: 100%;
+  max-height: 350px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #999;
+  border-radius: 6px;
+  margin-bottom: 0.25em;
+  text-align: center;
+}
+
+.headerpreview a {
+  height: auto;
+  width: 100%;
+  align-self: center;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+}
+
+.headerpreview a:hover {
+  transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -webkit-filter: brightness(120%); /* Safari */
+  filter: brightness(120%);
+}
+
+.about {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 30px;
+  -ms-grid-columns: 1fr 1fr; 
+  -ms-grid-rows: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-flow: dense;
+  list-style: none;
+}
+
+.about li.text {
+  display: block;
+  grid-column-end: span 2;
+}
+
+.about li img {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  display: block;
+  object-fit: cover;
+  border: 1px solid #999;
+  border-radius: 6px;
+  overflow:hidden;
+}
+
+/* --------------- gallery --------------- */
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Auto-placement_in_CSS_Grid_Layout*/
+
+.gallerygrid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr; 
+  -ms-grid-rows: 1fr 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  grid-gap: 10px;
+  grid-auto-flow: dense;
+  list-style: none;
+  margin: 1em auto;
+  padding: 0;
+  max-width: 100%;
+}
+.gallerygrid li {
+  border: 1px solid #999;
+  border-radius: 6px;
+  overflow:hidden;
+}
+.gallerygrid li.landscape {
+  grid-column-end: span 2;
+}
+.gallerygrid.small {
+  grid-template-columns: repeat(auto-fill, minmax(135px, 2fr));
+}
+.gallerygrid li img {
+ display: block;
+ object-fit: cover;
+ width: 100%;
+ height: 100%;
+ -moz-transition: all 0.3s;
+ -webkit-transition: all 0.3s;
+ transition: all 0.3s;
+}
+
+.gallerygrid li img:hover {
+  transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+}
+
+/* IE11 fix */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .about {
+    display: block;
+    float: right;
+  }
+  .gallerygrid {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+  }
+  .gallerygrid li {
+    display: block;
+    float: left;
+    margin: 5px;
+  }
+
+  .headerpreview {
+    display: block;
+  }
+}
+
+.gallery {
+  margin: 0px;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+}
+
+.gallery img{
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.gallery a {
+  border-radius: 6px;
+  /*max-width: 100%;*/
+  width: 25%;
+  height: auto;
+  overflow:hidden;
+}
+
+.gallery:hover a {
+  filter: grayscale(70%);
+}
+
+.gallery img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.04);
+  -moz-transform: scale(1.04);
+  -webkit-transform: scale(1.04);
+}
+
+.preview, .previewh {
+  /*position: relative;*/
+  float: left;
+  margin: 0.25em;
+  overflow: hidden;
+  border-radius: 6px;
+  width: 32%;
+  min-width: 200px;
+  height: auto;
+  background-color: #006dd3;
+}
+
+.previewh {
+  width: 16%;
+}
+
+/* --------------- grid layout --------------- */
+.wrapper {
+  /*max-width: 940px;*/
+  margin: 0 0px;
+  display: grid;
+  grid-gap: 0px;
+  border-bottom: 0.2em solid #006dd3;
+}
+
+@media screen and (min-width: 870px) {
+
+  /* no grid support? */
+  .sidebar {
+    float: right;
+    width: 19.1489%;
+  }
+
+  .content {
+    float: left;
+    width: 79.7872%;
+  }
+
+  .wrapper {
+    margin: 0 auto;
+    grid-template-columns: 3fr 1fr;
+    /*grid-template-rows: 500px;*/
+  }
+  
+  .header, .footer {
+    grid-column: 1 / -1;
+    /* needed for the floated layout */
+    clear: both;
+  }
+
+}
+
+.wrapper > * {
+  background-color: #444;
+  color: #ddd;
+  border-radius: 0px;
+  padding: 20px;
+  /*font-size: 150%;*/
+  /* needed for the floated layout*/
+  margin-bottom: 0px;
+}
+
+.wrapper > .header, .footer {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: filter .6s; /* Animation */
+}
+
+.wrapper > .header {
+  filter: grayscale(50%);
+}
+
+.wrapper > .header:hover {
+  filter: grayscale(0%);
+}
+
+.wrapper > .sidebar {
+  background-color: #333;
+  padding: 2em;
+}
+
+.wrapper > .content {
+  background-color: #282828;
+  padding: 5% 10%;
+}
+
+/* We need to set the widths used on floated items back to auto, and remove the bottom margin as when we have grid we have gaps. */
+@supports (display: grid) {
+  .wrapper > * {
+    width: auto;
+    margin: 0;
+  }
+}
+
+/* --------------- Naviation --------------- */
+
+.homebutton {
+  font-size: 1.55em;
+  font-family: 'Roboto', 'Open Sans', 'sans-serif';
+  color: #eee;
+  margin: -4px -3px;
+  display: block;
+}
+
+.colorbox, .colorbox1, .colorbox2, .colorbox3, .colorbox4, .colorbox5 {
+  display: block;
+  float: left;
+  margin: 0px 0px;
+  height: 49px;
+  text-align: center;
+  padding: 12px 2px;
+}
+
+.colorbox {
+  background-color: none;
+}
+.colorbox1 {
+  background-color: #4197e7;
+}
+.colorbox2 {
+  background-color: #7577d8;
+}
+.colorbox3 {
+  background-color: #ca75ec;
+}
+.colorbox4 {
+  background-color: #f980ac;
+}
+.colorbox5 {
+  background-color: #f8c792;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #444;
+  border-top: 0.2em solid #006dd3;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: #bbb;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-weight: 400;
+  border-bottom: 0.2em solid transparent;
+}
+
+ul.topnav a .logo {
+  color: #eee;
+  font-size: 1.5em;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #555; color: #eee; border-bottom-color: #ccc;}
+
+ul.topnav li a.active {background-color: #333; color: #eee; border-bottom-color: #006dd3;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 870px) {
+
+  ul.topnav {
+    position: relative;
+  }
+
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+
+
+
+
+

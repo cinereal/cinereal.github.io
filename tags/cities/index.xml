@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cities on CineReal.info</title>
+    <link>http://cinereal.info/tags/cities/</link>
+    <description>Recent content in Cities on CineReal.info</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Feb 2019 12:35:12 -0800</lastBuildDate>
+    
+	<atom:link href="http://cinereal.info/tags/cities/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sydney at Night</title>
+      <link>http://cinereal.info/photography/sydneylights/</link>
+      <pubDate>Sun, 10 Feb 2019 12:35:12 -0800</pubDate>
+      
+      <guid>http://cinereal.info/photography/sydneylights/</guid>
+      <description> Sydney at Night       </description>
+    </item>
+    
+    <item>
+      <title>Hong Kong</title>
+      <link>http://cinereal.info/photography/hongkong/</link>
+      <pubDate>Sat, 02 Feb 2019 07:47:46 -0800</pubDate>
+      
+      <guid>http://cinereal.info/photography/hongkong/</guid>
+      <description> City Night Life        Disneyland HK    </description>
+    </item>
+    
+    <item>
+      <title>Singapore</title>
+      <link>http://cinereal.info/photography/singapore/</link>
+      <pubDate>Sat, 02 Feb 2019 07:39:50 -0800</pubDate>
+      
+      <guid>http://cinereal.info/photography/singapore/</guid>
+      <description> Singapore     </description>
+    </item>
+    
+  </channel>
+</rss>

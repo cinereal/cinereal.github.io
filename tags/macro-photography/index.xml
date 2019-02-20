@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Macro Photography on CineReal.info</title>
+    <link>http://cinereal.info/tags/macro-photography/</link>
+    <description>Recent content in Macro Photography on CineReal.info</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Feb 2019 07:11:55 -0800</lastBuildDate>
+    
+	<atom:link href="http://cinereal.info/tags/macro-photography/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Macro Photography</title>
+      <link>http://cinereal.info/photography/macro/</link>
+      <pubDate>Mon, 11 Feb 2019 07:11:55 -0800</pubDate>
+      
+      <guid>http://cinereal.info/photography/macro/</guid>
+      <description> Macro photography      </description>
+    </item>
+    
+    <item>
+      <title>Papiliorama</title>
+      <link>http://cinereal.info/photography/papiliorama/</link>
+      <pubDate>Mon, 11 Feb 2019 06:49:50 -0800</pubDate>
+      
+      <guid>http://cinereal.info/photography/papiliorama/</guid>
+      <description> Butterflies         </description>
+    </item>
+    
+  </channel>
+</rss>
