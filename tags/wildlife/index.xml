@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wildlife on CineReal.info</title>
-    <link>http://cinereal.info/tags/wildlife/</link>
+    <link>https://cinereal.github.io/tags/wildlife/</link>
     <description>Recent content in Wildlife on CineReal.info</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 10 Feb 2019 12:35:26 -0800</lastBuildDate>
     
-	<atom:link href="http://cinereal.info/tags/wildlife/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://cinereal.github.io/tags/wildlife/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Australia Nature</title>
-      <link>http://cinereal.info/photography/australianature/</link>
+      <link>https://cinereal.github.io/photography/australianature/</link>
       <pubDate>Sun, 10 Feb 2019 12:35:26 -0800</pubDate>
       
-      <guid>http://cinereal.info/photography/australianature/</guid>
+      <guid>https://cinereal.github.io/photography/australianature/</guid>
       <description> Australia Nature - Animals      Australia Nature - Scenery      Melbourne Evening    </description>
     </item>
     

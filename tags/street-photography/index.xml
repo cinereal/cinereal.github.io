@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Street Photography on CineReal.info</title>
-    <link>http://cinereal.info/tags/street-photography/</link>
+    <link>https://cinereal.github.io/tags/street-photography/</link>
     <description>Recent content in Street Photography on CineReal.info</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 02 Feb 2019 07:47:46 -0800</lastBuildDate>
     
-	<atom:link href="http://cinereal.info/tags/street-photography/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://cinereal.github.io/tags/street-photography/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hong Kong</title>
-      <link>http://cinereal.info/photography/hongkong/</link>
+      <link>https://cinereal.github.io/photography/hongkong/</link>
       <pubDate>Sat, 02 Feb 2019 07:47:46 -0800</pubDate>
       
-      <guid>http://cinereal.info/photography/hongkong/</guid>
+      <guid>https://cinereal.github.io/photography/hongkong/</guid>
       <description> City Night Life        Disneyland HK    </description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sydney on CineReal.info</title>
-    <link>http://cinereal.info/tags/sydney/</link>
+    <link>https://cinereal.github.io/tags/sydney/</link>
     <description>Recent content in Sydney on CineReal.info</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 10 Feb 2019 12:35:12 -0800</lastBuildDate>
     
-	<atom:link href="http://cinereal.info/tags/sydney/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://cinereal.github.io/tags/sydney/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Sydney at Night</title>
-      <link>http://cinereal.info/photography/sydneylights/</link>
+      <link>https://cinereal.github.io/photography/sydneylights/</link>
       <pubDate>Sun, 10 Feb 2019 12:35:12 -0800</pubDate>
       
-      <guid>http://cinereal.info/photography/sydneylights/</guid>
+      <guid>https://cinereal.github.io/photography/sydneylights/</guid>
       <description> Sydney at Night       </description>
     </item>
     
