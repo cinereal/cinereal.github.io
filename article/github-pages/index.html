@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="generator" content="Hugo 0.53" /><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Camera Raw Editing in Capture One">
+<meta property="og:image" content="http://cinereal.info/images/gitpages_intro.jpg" />
+
+
+<meta name="theme-color" content="#4197e7">
+
+<meta name="msapplication-navbutton-color" content="#006dd3">
+
+<meta name="apple-mobile-web-app-status-bar-style" content="#006dd3">
+<meta http-equiv="cache-control" content="no-cache" />
+<title>Github Pages for your Website | CineReal.info</title>
+<link rel="icon" href="/favicon.ico">
+<link rel="manifest" href="/manifest.json">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300" />
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:100" />
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css" />
+<link rel="stylesheet" type="text/css" href="http://cinereal.info/css/style.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body><ul class="topnav">
+    <li>
+        <div class="colorbox1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="colorbox">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="colorbox2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="colorbox">&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="colorbox3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="colorbox">&nbsp;&nbsp;&nbsp;</div>
+        <div class="colorbox4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="colorbox">&nbsp;&nbsp;</div>
+        <div class="colorbox5">&nbsp;&nbsp;&nbsp;</div>
+        <div class="colorbox">&nbsp;</div>
+    </li>
+    <li><a class="logo" href="/"><div class="homebutton">CHRIS GLOOR</div></a></li>
+    
+    
+    <li class="right"><a class="sidebar-nav-item" href="/about/" title="About">About</a></li>
+    
+    <li class="right"><a class="sidebar-nav-item active" href="/article/" title="">Articles</a></li>
+    
+    <li class="right"><a class="sidebar-nav-item" href="/filmography/" title="Filmography">Filmography</a></li>
+    
+    <li class="right"><a class="sidebar-nav-item" href="/photography/" title="">Photographies</a></li>
+    
+</ul>
+<div class="wrapper">
+        <header class="header" style="background-image: url('http://cinereal.info/images/gitpages_intro.jpg');"><div class="aspect"></div>
+</header>
+        <article class="content">
+  
+  <h1>Github Pages for your Website</h1>
+  <div class="contenttext">
+      <p>When creating your website, blog or a simple portfolio page you&rsquo;ll eventually come to the point where you need to find a service / place to upload it.
+You can either choose a paid service or try one of the free options that are often not reliable, slow or include ads.</p>
+
+<p>Or you try <a href="https://github.com/">GitHub</a>. You might have heard of Git or GitHub or even used it as version control system. Many companies use it in technical departments, wherever code is involved.</p>
+
+<p>It also works great to host any type of static websites (<a href="http://cinereal.info/article/new-website-static-site-generator/">More about static websites</a>).
+This entire website is hosted on GitHub, here: <a href="https://cinereal.github.io/">cinereal.github.io</a></p>
+
+<p>Github pages have the additional benefit of enforced SSL encryption (HTTPS).</p>
+
+<p>In this article we go over setting up the simplest of websites to get familiar with the GitHub interface and learn how to use Git via command line to sync up your local repository to your GitHub page.</p>
+
+<h2 id="github-account">GitHub Account</h2>
+
+<ul>
+<li>First you need an account on <a href="https://github.com/">github.com</a>.</li>
+</ul>
+
+<h2 id="create-a-repositories">Create a repositories</h2>
+
+<ul>
+<li>Once you are logged in, navigate to your repositories. If you haven&rsquo;t used GitHub this will be empty.</li>
+</ul>
+
+<p><img src="/images/github/yourrepos.png" alt="Your Repos" /></p>
+
+<ul>
+<li>Create a new repository via the green <em>New</em> button.</li>
+</ul>
+
+<p><img src="/images/github/newrepo.png" alt="New Repo" /></p>
+
+<ul>
+<li>The following dialog will show. The important part here is the naming of the repo.
+If you want to use it as your website you have to name it exactly like this:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">username.github.io [replace username with your own profile name!]</code></pre></div>
+in my case:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">cinereal.github.io</code></pre></div>
+We leave the repository as <em>Public</em> for now but in case of your own website you might want to switch it to <em>Private</em>. You can always change it later.
+It&rsquo;s good to check the <em>Initialize this repository with a README</em>, every repository should have a README.md. To finalize we press <em>Create repository</em>.</li>
+</ul>
+
+<p><img src="/images/github/createrepo.png" alt="Create Repo" /></p>
+
+<ul>
+<li>Back in the overview click on the newly created repository (My account already has more repos from other projects, don&rsquo;t worry about them).</li>
+</ul>
+
+<p><img src="/images/github/overview.png" alt="Overview" /></p>
+
+<h2 id="create-the-index-html-file">Create the index.html file</h2>
+
+<ul>
+<li>The code section should contain nothing but the empty README.md. But in order to make our website working we need to create at least one html file named index.html.
+To do that we select <em>Create new file</em> bottom right.</li>
+</ul>
+
+<p><img src="/images/github/repomain.png" alt="Repos Main" /></p>
+
+<ul>
+<li>Here we can name the file. To use it as default page when someone visits your GitHub page it has to be named <em>index.html</em>.
+We also add the following code in the file.
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+&lt;<span style="color:#f92672">html</span>&gt;
+&lt;<span style="color:#f92672">head</span>&gt;
+&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTF-8&#34;</span>&gt;
+&lt;<span style="color:#f92672">title</span>&gt;My Awesome Github Page&lt;/<span style="color:#f92672">title</span>&gt;
+&lt;/<span style="color:#f92672">head</span>&gt;
+&lt;<span style="color:#f92672">body</span>&gt;
+&lt;<span style="color:#f92672">h1</span>&gt;My Awesome Github Page&lt;/<span style="color:#f92672">h1</span>&gt;
+&lt;<span style="color:#f92672">p</span>&gt;Welcome to the most amazing website. Ever. Really.&lt;/<span style="color:#f92672">p</span>&gt;
+&lt;/<span style="color:#f92672">body</span>&gt;
+&lt;/<span style="color:#f92672">html</span>&gt;</code></pre></div>
+Finally we save the file by <em>Commit new file</em>.</li>
+</ul>
+
+<p><img src="/images/github/indexhtml.png" alt="Create File" /></p>
+
+<p>Optional if you already have page you can upload the files via <em>Upload files</em> right next to <em>Create new file</em>.
+If you have a full project with folder structure this would be rather tedious. Don&rsquo;t worry, Git provides better ways to sync up your local version. We go over them soon.</p>
+
+<p><img src="/images/github/addfiles.png" alt="Add Files" /></p>
+
+<h2 id="we-have-a-working-website">We have a working website!</h2>
+
+<ul>
+<li>We just created a working website and you should be able to see it (replace username with your own profile name):
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">username.github.io</code></pre></div></li>
+</ul>
+
+<p><img src="/images/github/testpage.png" alt="Test Page" /></p>
+
+<h2 id="the-readme-md-file">The README.md file</h2>
+
+<ul>
+<li>Back on the github repository page we still have our empty <em>README.md</em> file. Lets edit it by clicking on the file and then <em>Edit this file</em>.</li>
+</ul>
+
+<p><img src="/images/github/editfile.png" alt="Edit File" /></p>
+
+<ul>
+<li>MD stands for markdown. It allows inline text symbols to format a text. The file will show when someone clicks on your repo. Put a description of the project in there. Here&rsquo;s an example of my own repo:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md"># cinereal.github.io
+This is the repro of my static website generated with [<span style="color:#f92672">Hugo</span>](<span style="color:#a6e22e">https://gohugo.io/</span>).<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span>To view the page simply go to: [<span style="color:#f92672">cinereal.github.io</span>](<span style="color:#a6e22e">https://cinereal.github.io/</span>)<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span>Github pages have the added benefit of enforced SSL encryption (HTTPS).<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span>Feel free to poke around the code and template.</code></pre></div>
+When we are done, we <em>Commit changes</em>.</li>
+</ul>
+
+<p><img src="/images/github/commitchanges.png" alt="Commit Changes" /></p>
+
+<ul>
+<li>In the repository we now see the formatted <em>README.md</em> printed. The first line turned into an H1 title and the the links are properly displayed as such. To learn more about markdown GitHub provides a short introduction <a href="https://guides.github.com/features/mastering-markdown/">mastering-markdown</a>.</li>
+</ul>
+
+<p><img src="/images/github/readme.png" alt="Markdown Readme" /></p>
+
+<h2 id="setting-up-git">Setting up Git</h2>
+
+<p>To build an actual website with proper content, folders and images we need something a bit more sophisticated than the GitHub&rsquo;s upload button.
+Git is the perfect tool for that, we use it in a command line. It will only update files that have been changed which is essential once a project starts growing.</p>
+
+<p>If you are on Linux Git is most likely already available, just type <em>git</em> in a shell.</p>
+
+<p>On Windows you will have to install Git first. The standard installation can be found here:
+<a href="https://git-scm.com/">git-scm.com</a></p>
+
+<p>As command line tool I recommend using the Windows PowerShell. It&rsquo;s as the name suggests a lot more powerful than the standard command line tool.</p>
+
+<p>Here&rsquo;s how to setup Git in PowerShell:
+<a href="https://git-scm.com/book/uz/v2/Appendix-A%3A-Git-in-Other-Environments-Git-in-Powershell">Git-in-Powershell</a></p>
+
+<p>To find the PowerShell simply type the name in the Windows search bar. It&rsquo;s only available in newer versions of Windows. If yours doesn&rsquo;t include it, you might be able to download it from the Microsoft website.</p>
+
+<p><img src="/images/github/powershellicon.png" alt="Power Shell Icon" /></p>
+
+<p>Now if you type <em>git</em> you should see a usage help like below.</p>
+
+<p><img src="/images/github/powershell.png" alt="Power Shell" /></p>
+
+<p>If you use Git for the first time you also have to do a one time setup to connect it to your account.
+If you forget to do this, Git will remind you the first time you try to commit to a repo.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-posh" data-lang="posh">git config --global user.email <span style="color:#e6db74">&#34;you@example.com&#34;</span>
+git config --global user.name <span style="color:#e6db74">&#34;Your Name&#34;</span></code></pre></div>
+
+<p>If you are not familiar with version-control systems like Git and common terms, here&rsquo;s a good start:
+<a href="https://help.github.com/en/articles/github-glossary">github-glossary</a></p>
+
+<h2 id="source-code-editor">Source Code Editor</h2>
+
+<p>To create a website you&rsquo;ll need a decent editor with highlighting for HTML, CSS and JS.
+My Personal favourite is <a href="https://code.visualstudio.com/">Visual Studio Code</a>, a lightweight source code editor that has highlighting, autocomplete and built in Git support. It has many useful extensions available such as a PowerShell integration.</p>
+
+<p><img src="/images/github/vscode.png" alt="Visual Studio Code" /></p>
+
+<p>If you want something simpler, <a href="https://notepad-plus-plus.org/">Notepad++</a> is also a great alternative.</p>
+
+<h2 id="pull-our-github-repository-to-a-local-drive">Pull our GitHub repository to a local drive</h2>
+
+<p>Back on the GitHub repository we select the green <em>clone or download</em> button and in the dialog click the <em>copy icon</em> or copy the path manually .</p>
+
+<p><img src="/images/github/clonerepo.png" alt="GitHub clone" /></p>
+
+<p>In a PowerShell we navigate to the location where we want publish the local version of the website to, use the <em>git clone</em> command and paste the link from GitHub:</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-posh" data-lang="posh">cd E<span style="color:#960050;background-color:#1e0010">:</span>\Website\Hugo\Sites\github
+git clone https<span style="color:#960050;background-color:#1e0010">:</span>//github.com/cinereal/cinereal.github.io.git</code></pre></div>
+
+<p>This will create a new directory with the name of our repository including all the files we had created so far, in our case just index.html and README.md:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-posh" data-lang="posh">dir
+
+    Directory<span style="color:#960050;background-color:#1e0010">:</span> E<span style="color:#960050;background-color:#1e0010">:</span>\Website\Hugo\Sites\github\cinereal.github.io
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----       2019-02-20   2<span style="color:#960050;background-color:#1e0010">:</span>59 PM           7513 index.xml
+-a----       2019-02-20   3<span style="color:#960050;background-color:#1e0010">:</span>00 PM            317 README.md</code></pre></div></p>
+
+<p>To make sure we have the last version that is on server we use <em>git checkout</em> plus the branch name. In our case we just have master. As you start doing changes or have multiple people working on a repository you will want to create branches. But don&rsquo;t worry about that for now.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-posh" data-lang="posh">git checkout master</code></pre></div>
+
+<h2 id="edit-the-repository-locally-and-push-it-back-to-github">Edit the repository locally and push it back to GitHub</h2>
+
+<p>Now we can start creating files and folders or change existing once. You don&rsquo;t need to use the PowerShell, creating them from any tool works as long as they are inside the repository directory.</p>
+
+<p>Once we are happy it&rsquo;s time to push it back to GitHub. We have to use a few Git command for that. <em>Add</em> to add the files to the repo, via <em>&ndash;all</em> we can add all at once. Then we <em>commit</em> our change, always include a comment so you remember next time what you changed. Finally we <em>push</em> it back to GitHub. Git will only push changes by comparing checksums of the files. This becomes more important as your projects get more complex.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-posh" data-lang="posh">git add --all
+git commit -m <span style="color:#e6db74">&#34;inital commit&#34;</span>
+git push origin master</code></pre></div>
+
+<p>Finally go back to our repository on GitHub and we should see all the files we just push.</p>
+
+<p><img src="/images/github/cinerealrepo.png" alt="CineReal Repo" /></p>
+
+<p>In my case I added my whole website, feel free to take a look at the <a href="https://github.com/cinereal/cinereal.github.io">repository</a>.</p>
+
+<p>And the result: <a href="https://cinereal.github.io/">cinereal.github.io</a></p>
+
+<p>You might wonder how I created all these hundreds of files. As mentioned at the beginning of the article I&rsquo;m using a Static Site Generator to render my website. Meaning it generates all the files from a template and a few markup files automatically. This will be the topic of another article in the near future.</p>
+  </div>
+  <span class="tags"><i class="fa fa-user"></i> Chris</span>
+  <span class="tags"><i class="fa fa-tag"></i> <a href="/tags/github">GitHub</a> <a href="/tags/website">Website</a> <a href="/tags/tutorial">Tutorial</a> <a href="/tags/git">Git</a> <a href="/tags/powershell">PowerShell</a> <a href="/tags/vscode">VSCode</a> </span>
+  <span class="tags"><i class="fa fa-folder-open"></i> <a href="/categories/web-development">Web Development</a> </span>
+  <span class="tags"><i class="fa fa-calendar"></i> March 4, 2019</span>
+
+        </article>
+        <aside class="sidebar">
+
+
+    <h2>Table Of Contents</h2>
+    <div class="tags"><nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#github-account">GitHub Account</a></li>
+<li><a href="#create-a-repositories">Create a repositories</a></li>
+<li><a href="#create-the-index-html-file">Create the index.html file</a></li>
+<li><a href="#we-have-a-working-website">We have a working website!</a></li>
+<li><a href="#the-readme-md-file">The README.md file</a></li>
+<li><a href="#setting-up-git">Setting up Git</a></li>
+<li><a href="#source-code-editor">Source Code Editor</a></li>
+<li><a href="#pull-our-github-repository-to-a-local-drive">Pull our GitHub repository to a local drive</a></li>
+<li><a href="#edit-the-repository-locally-and-push-it-back-to-github">Edit the repository locally and push it back to GitHub</a></li>
+</ul></li>
+</ul>
+</nav></div>
+    <hr>
+
+
+
+    
+    
+        <h2>Articles</h2>
+        <ul class="tags">
+            
+                <li><a href="/article/github-pages/">Github Pages for your Website</a></li>
+            
+                <li><a href="/article/captureone-lens-cast-calibration/">Lens Cast Calibration in Capture One</a></li>
+            
+                <li><a href="/article/captureone-lens-correction/">Lens Correction in Capture One</a></li>
+            
+                <li><a href="/article/captureone/">New Raw Editor - Capture One</a></li>
+            
+                <li><a href="/article/new-website-static-site-generator/">New Website - Static Site Generators</a></li>
+            
+        </ul>
+        <hr>
+    
+
+
+
+<h2>Categories</h2>
+<div class="tags">
+    <a href="/categories/photo-editing">
+        Photo Editing
+        &#40;3&#41;
+    </a>
+    <a href="/categories/photography">
+        Photography
+        &#40;8&#41;
+    </a>
+    <a href="/categories/web-development">
+        Web Development
+        &#40;2&#41;
+    </a>
+</div>
+<hr>
+<h2>Tags</h2>
+<div class="tags">
+    <a href="/tags/australia">
+        Australia
+        &#40;2&#41;
+    </a>
+    <a href="/tags/butterflies">
+        Butterflies
+        &#40;1&#41;
+    </a>
+    <a href="/tags/camera-raw">
+        Camera Raw
+        &#40;3&#41;
+    </a>
+    <a href="/tags/capture-one">
+        Capture One
+        &#40;2&#41;
+    </a>
+    <a href="/tags/cities">
+        Cities
+        &#40;3&#41;
+    </a>
+    <a href="/tags/flowers">
+        Flowers
+        &#40;1&#41;
+    </a>
+    <a href="/tags/git">
+        Git
+        &#40;1&#41;
+    </a>
+    <a href="/tags/github">
+        Github
+        &#40;1&#41;
+    </a>
+    <a href="/tags/hong-kong">
+        Hong Kong
+        &#40;1&#41;
+    </a>
+    <a href="/tags/lights">
+        Lights
+        &#40;3&#41;
+    </a>
+    <a href="/tags/macro-photography">
+        Macro Photography
+        &#40;2&#41;
+    </a>
+    <a href="/tags/nature">
+        Nature
+        &#40;2&#41;
+    </a>
+    <a href="/tags/papiliorama">
+        Papiliorama
+        &#40;1&#41;
+    </a>
+    <a href="/tags/phase-one">
+        Phase One
+        &#40;2&#41;
+    </a>
+    <a href="/tags/powershell">
+        Powershell
+        &#40;1&#41;
+    </a>
+    <a href="/tags/refraction">
+        Refraction
+        &#40;1&#41;
+    </a>
+    <a href="/tags/singapore">
+        Singapore
+        &#40;1&#41;
+    </a>
+    <a href="/tags/snow">
+        Snow
+        &#40;1&#41;
+    </a>
+    <a href="/tags/software">
+        Software
+        &#40;3&#41;
+    </a>
+    <a href="/tags/static-site-generators">
+        Static Site Generators
+        &#40;1&#41;
+    </a>
+    <a href="/tags/street-photography">
+        Street Photography
+        &#40;1&#41;
+    </a>
+    <a href="/tags/switzerland">
+        Switzerland
+        &#40;3&#41;
+    </a>
+    <a href="/tags/sydney">
+        Sydney
+        &#40;1&#41;
+    </a>
+    <a href="/tags/tutorial">
+        Tutorial
+        &#40;3&#41;
+    </a>
+    <a href="/tags/vscode">
+        Vscode
+        &#40;1&#41;
+    </a>
+    <a href="/tags/website">
+        Website
+        &#40;2&#41;
+    </a>
+    <a href="/tags/wildlife">
+        Wildlife
+        &#40;2&#41;
+    </a>
+    <a href="/tags/winter">
+        Winter
+        &#40;1&#41;
+    </a>
+</div>
+<hr></aside>
+        <footer class="footer footercontent"><ul>
+    <li class="center">
+        <a href="https://github.com/cinereal"><i class="fa fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/chris-gloor-92765623/"><i class="fa fa-linkedin fa-2x"></i></a>
+        <a href="https://www.imdb.com/name/nm4947723"><i class="fa fa-imdb fa-2x"></i></a>
+    </li>
+    <li class="floatleft">Copyright &copy; 2019 - <a href="http://cinereal.info">Chris Gloor</a></li>
+</ul></footer>
+    </div>
+    
+    
+    <script async type="text/javascript"  src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+</body>
+</html>

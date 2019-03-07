@@ -95,6 +95,21 @@ a:hover {
   color: #60a8ec;
 }
 
+em {
+  background-color: #444;
+  border: 1px solid #999;
+  font-style: normal;
+  padding: 0.0em 0.2em;
+}
+
+.highlight {
+  border: 1px solid #999;
+  display: block;
+  margin: 0.5em 0em;
+  padding: 0em 0.5em;
+  border-radius: 6px;
+}
+
 /* define min height to width ratio for header */
 .aspect {
   display: flex;
@@ -226,8 +241,13 @@ a:hover {
   grid-column-end: span 2;
 }
 .gallerygrid.small {
-  grid-template-columns: repeat(auto-fill, minmax(135px, 2fr));
+  grid-template-columns: repeat(auto-fill, minmax(auto, 2fr));
 }
+
+.gallerygrid.small li {
+  max-width: 182px; /* 20% x 300px */
+}
+
 .gallerygrid li img {
  display: block;
  object-fit: cover;

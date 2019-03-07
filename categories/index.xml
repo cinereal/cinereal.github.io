@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on CineReal.info</title>
-    <link>https://cinereal.github.io/categories/</link>
+    <link>http://cinereal.info/categories/</link>
     <description>Recent content in Categories on CineReal.info</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://cinereal.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://cinereal.info/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Photo Editing</title>
-      <link>https://cinereal.github.io/categories/photo-editing/</link>
+      <link>http://cinereal.info/categories/photo-editing/</link>
       <pubDate>Tue, 19 Feb 2019 04:12:23 -0800</pubDate>
       
-      <guid>https://cinereal.github.io/categories/photo-editing/</guid>
+      <guid>http://cinereal.info/categories/photo-editing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Photography</title>
-      <link>https://cinereal.github.io/categories/photography/</link>
-      <pubDate>Mon, 11 Feb 2019 07:11:55 -0800</pubDate>
+      <link>http://cinereal.info/categories/photography/</link>
+      <pubDate>Fri, 01 Mar 2019 06:53:14 -0800</pubDate>
       
-      <guid>https://cinereal.github.io/categories/photography/</guid>
+      <guid>http://cinereal.info/categories/photography/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web Development</title>
-      <link>https://cinereal.github.io/categories/web-development/</link>
-      <pubDate>Thu, 14 Feb 2019 11:14:00 -0800</pubDate>
+      <link>http://cinereal.info/categories/web-development/</link>
+      <pubDate>Mon, 04 Mar 2019 02:07:57 -0800</pubDate>
       
-      <guid>https://cinereal.github.io/categories/web-development/</guid>
+      <guid>http://cinereal.info/categories/web-development/</guid>
       <description></description>
     </item>
     
