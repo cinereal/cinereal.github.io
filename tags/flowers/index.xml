@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Flowers on CineReal.info</title>
-    <link>http://cinereal.info/tags/flowers/</link>
+    <link>https://cinereal.github.io/tags/flowers/</link>
     <description>Recent content in Flowers on CineReal.info</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 01 Mar 2019 06:53:14 -0800</lastBuildDate>
     
-	<atom:link href="http://cinereal.info/tags/flowers/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://cinereal.github.io/tags/flowers/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Nature and Animals</title>
-      <link>http://cinereal.info/photography/natureanimals/</link>
+      <link>https://cinereal.github.io/photography/natureanimals/</link>
       <pubDate>Fri, 01 Mar 2019 06:53:14 -0800</pubDate>
       
-      <guid>http://cinereal.info/photography/natureanimals/</guid>
+      <guid>https://cinereal.github.io/photography/natureanimals/</guid>
       <description>&lt;p&gt;A trip to Zurich to the Zoo and Botanical Garden.&lt;/p&gt;</description>
     </item>
     
