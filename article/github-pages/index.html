@@ -4,9 +4,17 @@
 <head>
     <meta name="generator" content="Hugo 0.53" /><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Camera Raw Editing in Capture One">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content=""/>
+
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="CineReal.info"/>
+<meta property="og:site_name" content="CineReal.info"/>
+<meta property="og:description" content="CineReal.info - Chris Gloor"/>
 <meta property="og:image" content="https://cinereal.github.io/images/gitpages_intro.jpg" />
+<meta property="og:url" content="https://cinereal.github.io/" />
+<meta property="og:locale" content="en">
 
 
 <meta name="theme-color" content="#4197e7">
@@ -18,6 +26,9 @@
 <title>Github Pages for your Website | CineReal.info</title>
 <link rel="icon" href="/favicon.ico">
 <link rel="manifest" href="/manifest.json">
+<link rel="dns-prefetch" href="https://cinereal.github.io/">
+<link rel="preconnect" href="https://cinereal.github.io/">
+<link rel="canonical" href="https://cinereal.github.io/"/>
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300" />
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:100" />
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700">
@@ -60,67 +71,65 @@
   
   <h1>Github Pages for your Website</h1>
   <div class="contenttext">
-      <p>When creating your website, blog or a simple portfolio page you&rsquo;ll eventually come to the point where you need to find a service / place to upload it.
-You can either choose a paid service or try one of the free options that are often not reliable, slow or include ads.</p>
+      <h2 id="introduction">Introduction</h2>
 
-<p>Or you try <a href="https://github.com/">GitHub</a>. You might have heard of Git or GitHub or even used it as version control system. Many companies use it in technical departments, wherever code is involved.</p>
+<p>We go over GitHub Pages and set up a simple website to get familiar with the GitHub interface and learn how to use Git via command line to sync up your local repository of any existing page to your GitHub page.</p>
+
+<blockquote>
+<h3 id="a-bit-of-background-on-the-whole-topic-before-we-get-started">A bit of background on the whole topic before we get started.</h3>
+
+<p>When creating your website, blog or a simple portfolio page you&rsquo;ll eventually come to the point where you need to find a service to host it.
+Generally you have to choose between a paid service or try one of the free options that are often not reliable, slow or include ads.</p>
+
+<p>There another option which is free as well, reliable and even has some features that traditional website services don&rsquo;t include, <a href="https://pages.github.com/">GitHub Pages</a>. You might have heard of Git and GitHub or even used it as version control system. Many companies use it in technical departments, wherever code is involved.</p>
 
 <p>It also works great to host any type of static websites (<a href="https://cinereal.github.io/article/new-website-static-site-generator/">More about static websites</a>).
-This entire website is hosted on GitHub, here: <a href="https://cinereal.github.io/">cinereal.github.io</a></p>
+My entire website is hosted on GitHub: <a href="https://cinereal.github.io/">cinereal.github.io</a></p>
 
-<p>Github pages have the additional benefit of enforced SSL encryption (HTTPS).</p>
+<p>GitHub pages have the added benefit of enforced SSL encryption (HTTPS) and of course free version control.</p>
 
-<p>In this article we go over setting up the simplest of websites to get familiar with the GitHub interface and learn how to use Git via command line to sync up your local repository to your GitHub page.</p>
+<p>So what&rsquo;s the catch? It only works for static websites. Meaning if you are using a CMS or any script that dynamically generates pages or requires execution on a server it will not work. Anything PHP won&rsquo;t work. What will work are script that are run on the client machine such as JavaScript.</p>
+
+<p>Nowadays Static Site Generators are great alternatives to CMSs. You can create an entire website without a line of code if you don&rsquo;t want to dive too deep into the whole web development aspect.</p>
+
+<p>There&rsquo;s projects that go even a step further, they provide a CMS to edit content, generate static site and sync your git repositories. The most popular one is <a href="https://www.netlifycms.org/">netlifycms.org</a>.</p>
+</blockquote>
 
 <h2 id="github-account">GitHub Account</h2>
 
-<ul>
-<li>First you need an account on <a href="https://github.com/">github.com</a>.</li>
-</ul>
+<p>First you need an account on <a href="https://github.com/">github.com</a>.</p>
 
 <h2 id="create-a-repositories">Create a repositories</h2>
 
-<ul>
-<li>Once you are logged in, navigate to your repositories. If you haven&rsquo;t used GitHub this will be empty.</li>
-</ul>
+<p>Once you are logged in, navigate to your repositories. If you haven&rsquo;t used GitHub this will be empty.</p>
 
-<p><img src="/images/github/yourrepos.png" alt="Your Repos" /></p>
-
-<ul>
-<li>Create a new repository via the green <em>New</em> button.</li>
-</ul>
+<p><img src="/images/github/yourrepos.png" alt="Your Repos" />
+Create a new repository via the green <em>New</em> button.</p>
 
 <p><img src="/images/github/newrepo.png" alt="New Repo" /></p>
 
-<ul>
-<li>The following dialog will show. The important part here is the naming of the repo.
+<p>The following dialog will show. The important part here is the naming of the repositories.
 If you want to use it as your website you have to name it exactly like this:
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">username.github.io [replace username with your own profile name!]</code></pre></div>
 in my case:
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">cinereal.github.io</code></pre></div>
 We leave the repository as <em>Public</em> for now but in case of your own website you might want to switch it to <em>Private</em>. You can always change it later.
-It&rsquo;s good to check the <em>Initialize this repository with a README</em>, every repository should have a README.md. To finalize we press <em>Create repository</em>.</li>
-</ul>
+It&rsquo;s good to check the <em>Initialize this repository with a README</em>, every repository should have a README.md. To finalize we press <em>Create repository</em>.</p>
 
 <p><img src="/images/github/createrepo.png" alt="Create Repo" /></p>
 
-<ul>
-<li>Back in the overview click on the newly created repository (My account already has more repos from other projects, don&rsquo;t worry about them).</li>
-</ul>
+<p>Back in the overview click on the newly created repository (My account already has more repos from other projects, don&rsquo;t worry about them).</p>
 
 <p><img src="/images/github/overview.png" alt="Overview" /></p>
 
 <h2 id="create-the-index-html-file">Create the index.html file</h2>
 
-<ul>
-<li>The code section should contain nothing but the empty README.md. But in order to make our website working we need to create at least one html file named index.html.
-To do that we select <em>Create new file</em> bottom right.</li>
-</ul>
+<p>The code section should contain nothing but the empty README.md. But in order to make our website working we need to create at least one html file named index.html.
+To do that we select <em>Create new file</em> bottom right.</p>
 
 <p><img src="/images/github/repomain.png" alt="Repos Main" /></p>
 
-<ul>
-<li>Here we can name the file. To use it as default page when someone visits your GitHub page it has to be named <em>index.html</em>.
+<p>Here we can name the file. To use it as default page when someone visits your GitHub page it has to be named <em>index.html</em>.
 We also add the following code in the file.
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
 &lt;<span style="color:#f92672">html</span>&gt;
@@ -133,8 +142,7 @@ We also add the following code in the file.
 &lt;<span style="color:#f92672">p</span>&gt;Welcome to the most amazing website. Ever. Really.&lt;/<span style="color:#f92672">p</span>&gt;
 &lt;/<span style="color:#f92672">body</span>&gt;
 &lt;/<span style="color:#f92672">html</span>&gt;</code></pre></div>
-Finally we save the file by <em>Commit new file</em>.</li>
-</ul>
+Finally we save the file by <em>Commit new file</em>.</p>
 
 <p><img src="/images/github/indexhtml.png" alt="Create File" /></p>
 
@@ -145,36 +153,28 @@ If you have a full project with folder structure this would be rather tedious. D
 
 <h2 id="we-have-a-working-website">We have a working website!</h2>
 
-<ul>
-<li>We just created a working website and you should be able to see it (replace username with your own profile name):
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">username.github.io</code></pre></div></li>
-</ul>
+<p>We just created a working website and you should be able to see it (replace username with your own profile name):
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">username.github.io</code></pre></div></p>
 
 <p><img src="/images/github/testpage.png" alt="Test Page" /></p>
 
 <h2 id="the-readme-md-file">The README.md file</h2>
 
-<ul>
-<li>Back on the github repository page we still have our empty <em>README.md</em> file. Lets edit it by clicking on the file and then <em>Edit this file</em>.</li>
-</ul>
+<p>Back on the github repository page we still have our empty <em>README.md</em> file. Lets edit it by clicking on the file and then <em>Edit this file</em>.</p>
 
 <p><img src="/images/github/editfile.png" alt="Edit File" /></p>
 
-<ul>
-<li>MD stands for markdown. It allows inline text symbols to format a text. The file will show when someone clicks on your repo. Put a description of the project in there. Here&rsquo;s an example of my own repo:
+<p>MD stands for markdown. It allows inline text symbols to format a text. The file will show when someone clicks on your repo. Put a description of the project in there. Here&rsquo;s an example of my own repo:
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md"># cinereal.github.io
 This is the repro of my static website generated with [<span style="color:#f92672">Hugo</span>](<span style="color:#a6e22e">https://gohugo.io/</span>).<span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>To view the page simply go to: [<span style="color:#f92672">cinereal.github.io</span>](<span style="color:#a6e22e">https://cinereal.github.io/</span>)<span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>Github pages have the added benefit of enforced SSL encryption (HTTPS).<span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>Feel free to poke around the code and template.</code></pre></div>
-When we are done, we <em>Commit changes</em>.</li>
-</ul>
+When we are done, we <em>Commit changes</em>.</p>
 
 <p><img src="/images/github/commitchanges.png" alt="Commit Changes" /></p>
 
-<ul>
-<li>In the repository we now see the formatted <em>README.md</em> printed. The first line turned into an H1 title and the the links are properly displayed as such. To learn more about markdown GitHub provides a short introduction <a href="https://guides.github.com/features/mastering-markdown/">mastering-markdown</a>.</li>
-</ul>
+<p>In the repository we now see the formatted <em>README.md</em> printed. The first line turned into an H1 title and the the links are properly displayed as such. To learn more about markdown GitHub provides a short introduction <a href="https://guides.github.com/features/mastering-markdown/">mastering-markdown</a>.</p>
 
 <p><img src="/images/github/readme.png" alt="Markdown Readme" /></p>
 
@@ -244,7 +244,7 @@ Mode                LastWriteTime         Length Name
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-posh" data-lang="posh">git checkout master</code></pre></div>
 
-<h2 id="edit-the-repository-locally-and-push-it-back-to-github">Edit the repository locally and push it back to GitHub</h2>
+<h2 id="edit-locally-and-push-back-to-github">Edit locally and push back to GitHub</h2>
 
 <p>Now we can start creating files and folders or change existing once. You don&rsquo;t need to use the PowerShell, creating them from any tool works as long as they are inside the repository directory.</p>
 
@@ -262,7 +262,7 @@ git push origin master</code></pre></div>
 
 <p>And the result: <a href="https://cinereal.github.io/">cinereal.github.io</a></p>
 
-<p>You might wonder how I created all these hundreds of files. As mentioned at the beginning of the article I&rsquo;m using a Static Site Generator to render my website. Meaning it generates all the files from a template and a few markup files automatically. This will be the topic of another article in the near future.</p>
+<p>You might wonder how I created all these hundreds of files. As mentioned at the beginning of the article I&rsquo;m using a Static Site Generator to render my website. Meaning it generates all the files from a template and a few markdown files automatically. This will be the topic of another article in the near future.</p>
   </div>
   <span class="tags"><i class="fa fa-user"></i> Chris</span>
   <span class="tags"><i class="fa fa-tag"></i> <a href="/tags/github">GitHub</a> <a href="/tags/website">Website</a> <a href="/tags/tutorial">Tutorial</a> <a href="/tags/git">Git</a> <a href="/tags/powershell">PowerShell</a> <a href="/tags/vscode">VSCode</a> </span>
@@ -278,6 +278,10 @@ git push origin master</code></pre></div>
 <ul>
 <li>
 <ul>
+<li><a href="#introduction">Introduction</a>
+<ul>
+<li><a href="#a-bit-of-background-on-the-whole-topic-before-we-get-started">A bit of background on the whole topic before we get started.</a></li>
+</ul></li>
 <li><a href="#github-account">GitHub Account</a></li>
 <li><a href="#create-a-repositories">Create a repositories</a></li>
 <li><a href="#create-the-index-html-file">Create the index.html file</a></li>
@@ -286,7 +290,7 @@ git push origin master</code></pre></div>
 <li><a href="#setting-up-git">Setting up Git</a></li>
 <li><a href="#source-code-editor">Source Code Editor</a></li>
 <li><a href="#pull-our-github-repository-to-a-local-drive">Pull our GitHub repository to a local drive</a></li>
-<li><a href="#edit-the-repository-locally-and-push-it-back-to-github">Edit the repository locally and push it back to GitHub</a></li>
+<li><a href="#edit-locally-and-push-back-to-github">Edit locally and push back to GitHub</a></li>
 </ul></li>
 </ul>
 </nav></div>

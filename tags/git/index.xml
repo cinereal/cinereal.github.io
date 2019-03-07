@@ -17,17 +17,29 @@
       <pubDate>Mon, 04 Mar 2019 02:07:57 -0800</pubDate>
       
       <guid>https://cinereal.github.io/article/github-pages/</guid>
-      <description>&lt;p&gt;When creating your website, blog or a simple portfolio page you&amp;rsquo;ll eventually come to the point where you need to find a service / place to upload it.
-You can either choose a paid service or try one of the free options that are often not reliable, slow or include ads.&lt;/p&gt;
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 
-&lt;p&gt;Or you try &lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;. You might have heard of Git or GitHub or even used it as version control system. Many companies use it in technical departments, wherever code is involved.&lt;/p&gt;
+&lt;p&gt;We go over GitHub Pages and set up a simple website to get familiar with the GitHub interface and learn how to use Git via command line to sync up your local repository of any existing page to your GitHub page.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;h3 id=&#34;a-bit-of-background-on-the-whole-topic-before-we-get-started&#34;&gt;A bit of background on the whole topic before we get started.&lt;/h3&gt;
+
+&lt;p&gt;When creating your website, blog or a simple portfolio page you&amp;rsquo;ll eventually come to the point where you need to find a service to host it.
+Generally you have to choose between a paid service or try one of the free options that are often not reliable, slow or include ads.&lt;/p&gt;
+
+&lt;p&gt;There another option which is free as well, reliable and even has some features that traditional website services don&amp;rsquo;t include, &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt;. You might have heard of Git and GitHub or even used it as version control system. Many companies use it in technical departments, wherever code is involved.&lt;/p&gt;
 
 &lt;p&gt;It also works great to host any type of static websites (&lt;a href=&#34;https://cinereal.github.io/article/new-website-static-site-generator/&#34;&gt;More about static websites&lt;/a&gt;).
-This entire website is hosted on GitHub, here: &lt;a href=&#34;https://cinereal.github.io/&#34;&gt;cinereal.github.io&lt;/a&gt;&lt;/p&gt;
+My entire website is hosted on GitHub: &lt;a href=&#34;https://cinereal.github.io/&#34;&gt;cinereal.github.io&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Github pages have the additional benefit of enforced SSL encryption (HTTPS).&lt;/p&gt;
+&lt;p&gt;GitHub pages have the added benefit of enforced SSL encryption (HTTPS) and of course free version control.&lt;/p&gt;
 
-&lt;p&gt;In this article we go over setting up the simplest of websites to get familiar with the GitHub interface and learn how to use Git via command line to sync up your local repository to your GitHub page.&lt;/p&gt;</description>
+&lt;p&gt;So what&amp;rsquo;s the catch? It only works for static websites. Meaning if you are using a CMS or any script that dynamically generates pages or requires execution on a server it will not work. Anything PHP won&amp;rsquo;t work. What will work are script that are run on the client machine such as JavaScript.&lt;/p&gt;
+
+&lt;p&gt;Nowadays Static Site Generators are great alternatives to CMSs. You can create an entire website without a line of code if you don&amp;rsquo;t want to dive too deep into the whole web development aspect.&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s projects that go even a step further, they provide a CMS to edit content, generate static site and sync your git repositories. The most popular one is &lt;a href=&#34;https://www.netlifycms.org/&#34;&gt;netlifycms.org&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
     
   </channel>
