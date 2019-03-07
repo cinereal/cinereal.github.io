@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Static Site Generators on CineReal.info</title>
-    <link>https://cinereal.github.io/tags/static-site-generators/</link>
+    <link>http://cinereal.info/tags/static-site-generators/</link>
     <description>Recent content in Static Site Generators on CineReal.info</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 14 Feb 2019 11:14:00 -0800</lastBuildDate>
     
-	<atom:link href="https://cinereal.github.io/tags/static-site-generators/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://cinereal.info/tags/static-site-generators/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>New Website - Static Site Generators</title>
-      <link>https://cinereal.github.io/article/new-website-static-site-generator/</link>
+      <link>http://cinereal.info/article/new-website-static-site-generator/</link>
       <pubDate>Thu, 14 Feb 2019 11:14:00 -0800</pubDate>
       
-      <guid>https://cinereal.github.io/article/new-website-static-site-generator/</guid>
+      <guid>http://cinereal.info/article/new-website-static-site-generator/</guid>
       <description>The Challenge A few weeks ago I decided to finally upgrade my 10+ year old website. Initially I planned to use a content management system (CMS) but eventually had to realize that this wouldn&amp;rsquo;t work with my current web-server due to technical difficulties. The PHP memory limit is set so low on the provider side that I wasn&amp;rsquo;t able to install a CMS.
 The Solution - Static Site Generators (SSG) In recent years static site generators have become more popular.</description>
     </item>

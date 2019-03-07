@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Articles on CineReal.info</title>
-    <link>https://cinereal.github.io/article/</link>
+    <link>http://cinereal.info/article/</link>
     <description>Recent content in Articles on CineReal.info</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 Mar 2019 02:07:57 -0800</lastBuildDate>
     
-	<atom:link href="https://cinereal.github.io/article/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://cinereal.info/article/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Github Pages for your Website</title>
-      <link>https://cinereal.github.io/article/github-pages/</link>
+      <link>http://cinereal.info/article/github-pages/</link>
       <pubDate>Mon, 04 Mar 2019 02:07:57 -0800</pubDate>
       
-      <guid>https://cinereal.github.io/article/github-pages/</guid>
+      <guid>http://cinereal.info/article/github-pages/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 
 &lt;p&gt;We go over GitHub Pages and set up a simple website to get familiar with the GitHub interface and learn how to use Git via command line to sync up your local repository of any existing page to your GitHub page.&lt;/p&gt;
@@ -29,7 +29,7 @@ Generally you have to choose between a paid service or try one of the free optio
 
 &lt;p&gt;There another option which is free as well, reliable and even has some features that traditional website services don&amp;rsquo;t include, &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt;. You might have heard of Git and GitHub or even used it as version control system. Many companies use it in technical departments, wherever code is involved.&lt;/p&gt;
 
-&lt;p&gt;It also works great to host any type of static websites (&lt;a href=&#34;https://cinereal.github.io/article/new-website-static-site-generator/&#34;&gt;More about static websites&lt;/a&gt;).
+&lt;p&gt;It also works great to host any type of static websites (&lt;a href=&#34;http://cinereal.info/article/new-website-static-site-generator/&#34;&gt;More about static websites&lt;/a&gt;).
 My entire website is hosted on GitHub: &lt;a href=&#34;https://cinereal.github.io/&#34;&gt;cinereal.github.io&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;GitHub pages have the added benefit of enforced SSL encryption (HTTPS) and of course free version control.&lt;/p&gt;
@@ -44,21 +44,21 @@ My entire website is hosted on GitHub: &lt;a href=&#34;https://cinereal.github.i
     
     <item>
       <title>Lens Cast Calibration in Capture One</title>
-      <link>https://cinereal.github.io/article/captureone-lens-cast-calibration/</link>
+      <link>http://cinereal.info/article/captureone-lens-cast-calibration/</link>
       <pubDate>Tue, 19 Feb 2019 04:12:23 -0800</pubDate>
       
-      <guid>https://cinereal.github.io/article/captureone-lens-cast-calibration/</guid>
+      <guid>http://cinereal.info/article/captureone-lens-cast-calibration/</guid>
       <description>&lt;h2 id=&#34;introduction-to-capture-one-part-2&#34;&gt;Introduction to Capture One [Part 2]&lt;/h2&gt;
 
 &lt;h3 id=&#34;the-lens-menu&#34;&gt;The Lens Menu&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://cinereal.github.io/images/captureone/lens.png&#34; alt=&#34;The Lens Menu&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://cinereal.info/images/captureone/lens.png&#34; alt=&#34;The Lens Menu&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;lens-cast-calibration-lcc&#34;&gt;Lens Cast Calibration (LCC)&lt;/h3&gt;
 
 &lt;p&gt;Lens Cast Calibration as to be done specifically for a shot setup hence it&amp;rsquo;s grayed out until a preset is created and applied. Each lens, camera, setting and lighting situation requires a unique calibration.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://cinereal.github.io/images/captureone/lcc.png&#34; alt=&#34;LCC Profile&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://cinereal.info/images/captureone/lcc.png&#34; alt=&#34;LCC Profile&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;what-is-lens-cast-calibration&#34;&gt;What is Lens Cast Calibration?&lt;/h3&gt;
 
@@ -67,22 +67,22 @@ My entire website is hosted on GitHub: &lt;a href=&#34;https://cinereal.github.i
 &lt;p&gt;One of these cases are snowy landscapes, which I&amp;rsquo;ve been shooting recently. This type of photography exposes issues in the white balance as illustrated in the photo below.
 See how the color shifts towards the edges into a bluish darker tone?&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://cinereal.github.io/images/captureone/nolcc1.jpg&#34; alt=&#34;LCC Off Image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://cinereal.info/images/captureone/nolcc1.jpg&#34; alt=&#34;LCC Off Image&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Wide angle lenses are impacted the most as they gather light from more directions.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Lens Correction in Capture One</title>
-      <link>https://cinereal.github.io/article/captureone-lens-correction/</link>
+      <link>http://cinereal.info/article/captureone-lens-correction/</link>
       <pubDate>Sat, 16 Feb 2019 01:20:13 -0800</pubDate>
       
-      <guid>https://cinereal.github.io/article/captureone-lens-correction/</guid>
+      <guid>http://cinereal.info/article/captureone-lens-correction/</guid>
       <description>&lt;h2 id=&#34;introduction-to-capture-one-part-1&#34;&gt;Introduction to Capture One [Part 1]&lt;/h2&gt;
 
 &lt;h3 id=&#34;the-lens-menu&#34;&gt;The Lens Menu&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://cinereal.github.io/images/captureone/lens.png&#34; alt=&#34;The Lens Menu&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://cinereal.info/images/captureone/lens.png&#34; alt=&#34;The Lens Menu&#34; /&gt;&lt;/p&gt;
 
 &lt;h4 id=&#34;lens-correction&#34;&gt;Lens Correction&lt;/h4&gt;
 
@@ -92,25 +92,25 @@ See how the color shifts towards the edges into a bluish darker tone?&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Lens Specific Profile:&lt;/strong&gt; Means Capture One has a profile of your lens with additional Sharpness Falloff correction.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://cinereal.github.io/images/captureone/lenscorrection.png&#34; alt=&#34;Manufacturer Profile&#34; /&gt;
-&lt;img src=&#34;https://cinereal.github.io/images/captureone/lenscorrectionprofile.png&#34; alt=&#34;Lens Specific Profile&#34; /&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img src=&#34;http://cinereal.info/images/captureone/lenscorrection.png&#34; alt=&#34;Manufacturer Profile&#34; /&gt;
+&lt;img src=&#34;http://cinereal.info/images/captureone/lenscorrectionprofile.png&#34; alt=&#34;Lens Specific Profile&#34; /&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>New Raw Editor - Capture One</title>
-      <link>https://cinereal.github.io/article/captureone/</link>
+      <link>http://cinereal.info/article/captureone/</link>
       <pubDate>Fri, 15 Feb 2019 12:22:57 -0800</pubDate>
       
-      <guid>https://cinereal.github.io/article/captureone/</guid>
+      <guid>http://cinereal.info/article/captureone/</guid>
       <description>New Camera, New RAW Editor I recently upgraded my camera and thought this was a good opportunity to re-evaluate my choice of RAW editing software. In the past I tried a few open source options, RawTherapee and darktable. They are both pretty good but I was missing a few features that forced me to keep falling back on Photoshop plus Camera RAW and I never got used to the in my view slightly confusing interfaces.</description>
     </item>
     
     <item>
       <title>New Website - Static Site Generators</title>
-      <link>https://cinereal.github.io/article/new-website-static-site-generator/</link>
+      <link>http://cinereal.info/article/new-website-static-site-generator/</link>
       <pubDate>Thu, 14 Feb 2019 11:14:00 -0800</pubDate>
       
-      <guid>https://cinereal.github.io/article/new-website-static-site-generator/</guid>
+      <guid>http://cinereal.info/article/new-website-static-site-generator/</guid>
       <description>The Challenge A few weeks ago I decided to finally upgrade my 10+ year old website. Initially I planned to use a content management system (CMS) but eventually had to realize that this wouldn&amp;rsquo;t work with my current web-server due to technical difficulties. The PHP memory limit is set so low on the provider side that I wasn&amp;rsquo;t able to install a CMS.
 The Solution - Static Site Generators (SSG) In recent years static site generators have become more popular.</description>
     </item>
