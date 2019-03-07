@@ -104,10 +104,12 @@ em {
 
 .highlight {
   border: 1px solid #999;
+  background-color:#272822;
   display: block;
   margin: 0.5em 0em;
   padding: 0em 0.5em;
   border-radius: 6px;
+  overflow: auto;
 }
 
 /* define min height to width ratio for header */
@@ -403,6 +405,7 @@ em {
 .wrapper > .content {
   background-color: #282828;
   padding: 5% 10%;
+  overflow: hidden;
 }
 
 /* We need to set the widths used on floated items back to auto, and remove the bottom margin as when we have grid we have gaps. */
