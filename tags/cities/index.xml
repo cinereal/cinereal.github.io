@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cities on CineReal.info</title>
-    <link>http://cinereal.info/tags/cities/</link>
+    <link>https://cinereal.github.io/tags/cities/</link>
     <description>Recent content in Cities on CineReal.info</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 10 Feb 2019 12:35:12 -0800</lastBuildDate>
     
-	<atom:link href="http://cinereal.info/tags/cities/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://cinereal.github.io/tags/cities/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Sydney at Night</title>
-      <link>http://cinereal.info/photography/sydneylights/</link>
+      <link>https://cinereal.github.io/photography/sydneylights/</link>
       <pubDate>Sun, 10 Feb 2019 12:35:12 -0800</pubDate>
       
-      <guid>http://cinereal.info/photography/sydneylights/</guid>
+      <guid>https://cinereal.github.io/photography/sydneylights/</guid>
       <description> Sydney at Night Once a year there&amp;rsquo;s the festival of lights in Sydney including projections onto the Opera House and other buildings.
       </description>
     </item>
     
     <item>
       <title>Hong Kong</title>
-      <link>http://cinereal.info/photography/hongkong/</link>
+      <link>https://cinereal.github.io/photography/hongkong/</link>
       <pubDate>Sat, 02 Feb 2019 07:47:46 -0800</pubDate>
       
-      <guid>http://cinereal.info/photography/hongkong/</guid>
+      <guid>https://cinereal.github.io/photography/hongkong/</guid>
       <description>&lt;p&gt;Before moving from Singapore to Australia I made a short trip to Hong Kong.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Singapore</title>
-      <link>http://cinereal.info/photography/singapore/</link>
+      <link>https://cinereal.github.io/photography/singapore/</link>
       <pubDate>Sat, 02 Feb 2019 07:39:50 -0800</pubDate>
       
-      <guid>http://cinereal.info/photography/singapore/</guid>
+      <guid>https://cinereal.github.io/photography/singapore/</guid>
       <description> Chinese New Year 2012 The rain help with reflections on the street.
     </description>
     </item>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web Development on CineReal.info</title>
-    <link>http://cinereal.info/categories/web-development/</link>
+    <link>https://cinereal.github.io/categories/web-development/</link>
     <description>Recent content in Web Development on CineReal.info</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 Mar 2019 02:07:57 -0800</lastBuildDate>
     
-	<atom:link href="http://cinereal.info/categories/web-development/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://cinereal.github.io/categories/web-development/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Github Pages for your Website</title>
-      <link>http://cinereal.info/article/github-pages/</link>
+      <link>https://cinereal.github.io/article/github-pages/</link>
       <pubDate>Mon, 04 Mar 2019 02:07:57 -0800</pubDate>
       
-      <guid>http://cinereal.info/article/github-pages/</guid>
+      <guid>https://cinereal.github.io/article/github-pages/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 
 &lt;p&gt;We go over GitHub Pages and set up a simple website to get familiar with the GitHub interface and learn how to use Git via command line to sync up your local repository of any existing page to your GitHub page.&lt;/p&gt;
@@ -29,7 +29,7 @@ Generally you have to choose between a paid service or try one of the free optio
 
 &lt;p&gt;There another option which is free as well, reliable and even has some features that traditional website services don&amp;rsquo;t include, &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt;. You might have heard of Git and GitHub or even used it as version control system. Many companies use it in technical departments, wherever code is involved.&lt;/p&gt;
 
-&lt;p&gt;It also works great to host any type of static websites (&lt;a href=&#34;http://cinereal.info/article/new-website-static-site-generator/&#34;&gt;More about static websites&lt;/a&gt;).
+&lt;p&gt;It also works great to host any type of static websites (&lt;a href=&#34;https://cinereal.github.io/article/new-website-static-site-generator/&#34;&gt;More about static websites&lt;/a&gt;).
 My entire website is hosted on GitHub: &lt;a href=&#34;https://cinereal.github.io/&#34;&gt;cinereal.github.io&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;GitHub pages have the added benefit of enforced SSL encryption (HTTPS) and of course free version control.&lt;/p&gt;
@@ -44,10 +44,10 @@ My entire website is hosted on GitHub: &lt;a href=&#34;https://cinereal.github.i
     
     <item>
       <title>New Website - Static Site Generators</title>
-      <link>http://cinereal.info/article/new-website-static-site-generator/</link>
+      <link>https://cinereal.github.io/article/new-website-static-site-generator/</link>
       <pubDate>Thu, 14 Feb 2019 11:14:00 -0800</pubDate>
       
-      <guid>http://cinereal.info/article/new-website-static-site-generator/</guid>
+      <guid>https://cinereal.github.io/article/new-website-static-site-generator/</guid>
       <description>The Challenge A few weeks ago I decided to finally upgrade my 10+ year old website. Initially I planned to use a content management system (CMS) but eventually had to realize that this wouldn&amp;rsquo;t work with my current web-server due to technical difficulties. The PHP memory limit is set so low on the provider side that I wasn&amp;rsquo;t able to install a CMS.
 The Solution - Static Site Generators (SSG) In recent years static site generators have become more popular.</description>
     </item>
