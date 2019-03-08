@@ -6,10 +6,20 @@
     <description>Recent content in Articles on CineReal.info</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Mar 2019 02:07:57 -0800</lastBuildDate>
+    <lastBuildDate>Fri, 08 Mar 2019 02:07:57 -0800</lastBuildDate>
     
 	<atom:link href="https://cinereal.github.io/article/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Visual Effects and Animation Studios</title>
+      <link>https://cinereal.github.io/article/vfx-and-animation-studios/</link>
+      <pubDate>Fri, 08 Mar 2019 02:07:57 -0800</pubDate>
+      
+      <guid>https://cinereal.github.io/article/vfx-and-animation-studios/</guid>
+      <description>In 2009 when I started working in the Visual Effects and Animation Industry I made a page with links to studios around the world: cgart.info
+Since then I haven&#39;t updated the list and many of the companies have disappeared over time. To my surprise is the site still pretty popular but it needs serious updating. It should also stay as simple as the current one. The only addition will be a sorting and maybe a search function as well as direct links to the job postings which are often done by third party websites.</description>
+    </item>
     
     <item>
       <title>Github Pages for your Website</title>
