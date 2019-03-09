@@ -73,7 +73,7 @@ hr {
 .tags > a {
   background-color: #282828;
   display: inline-block;
-  border: 1px solid #75b3ec;
+  border: 1px solid #60a8ec;
   border-radius: 4px;
   padding: 0px 4px;
   margin: 2px 0px;
@@ -82,20 +82,20 @@ hr {
 .tags > a:hover {
   background-color: #333;
   text-decoration: none;
-  border-color: #99c2e9;
+  border-color: #8bc2f5;
 }
 
 /* default link */
 a:link, a:visited, a:active {
   /*color: #3581c9;*/
   /*color: #4197e7;*/
-  color: #75b3ec;
+  color: #60a8ec;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
-  color: #99c2e9;
+  color: #8bc2f5;
 }
 
 em {
@@ -112,14 +112,13 @@ table {
   padding: 0px;
   margin: 1em 0em;
   width: 100%;
-  min-width: 800px;
+  /*min-width: 800px;*/
   font-size: 0.75em;
 }
 
 .table {
   overflow-x: auto;
   width: 100%;
-  max-width: none;
 }
 
 /*tr:nth-child(even){background-color: #333;}*/
