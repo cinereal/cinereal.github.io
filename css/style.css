@@ -55,27 +55,6 @@ blockquote {
   padding: 0.25em 1.5em;
 }
 
-.tags {
-  color: gray;
-  margin: 0.25em 0.5em;
-  font-size: 0.9em;
-}
-
-.tags > a {
-  background-color: #282828;
-  display: inline-block;
-  border: 1px solid #006dd3;
-  border-radius: 4px;
-  padding: 0px 4px;
-  margin: 2px 0px;
-}
-
-.tags > a:hover {
-  background-color: #333;
-  text-decoration: none;
-  border-color: #5b9ad4;
-}
-
 hr {
   height:1px;
   border:none;
@@ -85,17 +64,38 @@ hr {
   margin: 1.5rem 0;
 }
 
+.tags {
+  color: gray;
+  margin: 0.25em 0.5em;
+  font-size: 0.9em;
+}
+
+.tags > a {
+  background-color: #282828;
+  display: inline-block;
+  border: 1px solid #75b3ec;
+  border-radius: 4px;
+  padding: 0px 4px;
+  margin: 2px 0px;
+}
+
+.tags > a:hover {
+  background-color: #333;
+  text-decoration: none;
+  border-color: #99c2e9;
+}
+
 /* default link */
 a:link, a:visited, a:active {
   /*color: #3581c9;*/
   /*color: #4197e7;*/
-  color: #60a8ec;
+  color: #75b3ec;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
-  color: #8bc2f5;
+  color: #99c2e9;
 }
 
 em {
@@ -118,6 +118,8 @@ table {
 
 .table {
   overflow-x: auto;
+  width: 100%;
+  max-width: none;
 }
 
 /*tr:nth-child(even){background-color: #333;}*/
