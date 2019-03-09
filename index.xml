@@ -17,8 +17,556 @@
       <pubDate>Fri, 08 Mar 2019 02:07:57 -0800</pubDate>
       
       <guid>https://cinereal.github.io/article/vfx-and-animation-studios/</guid>
-      <description>In 2009 when I started working in the Visual Effects and Animation Industry I made a page with links to studios around the world: cgart.info
-Since then I haven&#39;t updated the list and many of the companies have disappeared over time. To my surprise is the site still pretty popular but it needs serious updating. It should also stay as simple as the current one. The only addition will be a sorting and maybe a search function as well as direct links to the job postings which are often done by third party websites.</description>
+      <description>&lt;p&gt;In 2009 when I started working in the Visual Effects and Animation Industry I made a page with links to studios around the world:
+&lt;a href=&#34;http://cgart.info/&#34;&gt;cgart.info&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Since then I haven&#39;t updated the list and many of the companies have disappeared over time. To my surprise is the site still pretty popular but it needs serious updating.
+It should also stay as simple as the current one. The only addition will be a sorting and maybe a search function as well as direct links to the job postings which are often done by third party websites.&lt;/p&gt;
+
+&lt;p&gt;Below is quick prototype. Still not sure how do deal with multiple locations for one company. Right now I&#39;m adding multiple entries which is not the best solution. The table is sortable by pressing on any of the headers.&lt;/p&gt;
+
+&lt;p&gt;Everyone is welcome to contribute! Just edit the README.md file and follow the formatting style. I&#39;ll merge the changes back into this article after approval.&lt;/p&gt;
+
+&lt;p&gt;Here the repository: &lt;a href=&#34;https://github.com/cinereal/CGstudios&#34;&gt;Visual Effects and Animation Studios&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&#34;table&#34;&gt;
+&lt;div&gt;&lt;/div&gt;
+
+&lt;table class=&#34;js-sort-table&#34;&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Company&lt;/th&gt;
+&lt;th&gt;Website&lt;/th&gt;
+&lt;th&gt;City&lt;/th&gt;
+&lt;th&gt;Country&lt;/th&gt;
+&lt;th&gt;VFX&lt;/th&gt;
+&lt;th&gt;Animation&lt;/th&gt;
+&lt;th&gt;Games&lt;/th&gt;
+&lt;th&gt;Job Postings&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Industrial Light &amp;amp; Magic&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.ilm.com/&#34;&gt;www.ilm.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;San Francisco&lt;/td&gt;
+&lt;td&gt;US&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://jobs.jobvite.com/lucascompanies/jobs/ilm?s=Industrial%20Light%20%26%20Magic&#34;&gt;ILM Job Postings&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Industrial Light &amp;amp; Magic&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.ilm.com/&#34;&gt;www.ilm.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;London&lt;/td&gt;
+&lt;td&gt;UK&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://jobs.jobvite.com/lucascompanies/jobs/ilm?s=Industrial%20Light%20%26%20Magic&#34;&gt;ILM Job Postings&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Industrial Light &amp;amp; Magic&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.ilm.com/&#34;&gt;www.ilm.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Vancouver&lt;/td&gt;
+&lt;td&gt;CA&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://jobs.jobvite.com/lucascompanies/jobs/ilm?s=Industrial%20Light%20%26%20Magic&#34;&gt;ILM Job Postings&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Industrial Light &amp;amp; Magic&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.ilm.com/&#34;&gt;www.ilm.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Singapore&lt;/td&gt;
+&lt;td&gt;SG&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://jobs.jobvite.com/lucascompanies/jobs/ilm?s=Industrial%20Light%20%26%20Magic&#34;&gt;ILM Job Postings&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Disney Animation&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.disneyanimation.com/&#34;&gt;www.disneyanimation.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Burbank&lt;/td&gt;
+&lt;td&gt;US&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.disneyanimation.com/careers/open-positions&#34;&gt;Disney Open Positions&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Pixar Animation&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.pixar.com/&#34;&gt;www.pixar.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Emeryville&lt;/td&gt;
+&lt;td&gt;US&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://pixar.wd5.myworkdayjobs.com/Pixar_External_Career_Site&#34;&gt;Pixar Careers&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Weta Digital&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.wetafx.co.nz/&#34;&gt;www.wetafx.co.nz&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Wellington&lt;/td&gt;
+&lt;td&gt;NZ&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://careers.wetafx.co.nz/&#34;&gt;WetaFX careers&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Double Negative&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.dneg.com/&#34;&gt;www.dneg.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Vancouver&lt;/td&gt;
+&lt;td&gt;CA&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://jobs.jobvite.com/double-negative-visual-effects/jobs&#34;&gt;DNEG Careers&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Double Negative&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.dneg.com/&#34;&gt;www.dneg.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Montreal&lt;/td&gt;
+&lt;td&gt;CA&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://jobs.jobvite.com/double-negative-visual-effects/jobs&#34;&gt;DNEG Careers&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Double Negative&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.dneg.com/&#34;&gt;www.dneg.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;London&lt;/td&gt;
+&lt;td&gt;UK&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://jobs.jobvite.com/double-negative-visual-effects/jobs&#34;&gt;DNEG Careers&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Double Negative&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.dneg.com/&#34;&gt;www.dneg.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Mumbai&lt;/td&gt;
+&lt;td&gt;IN&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://jobs.jobvite.com/double-negative-visual-effects/jobs&#34;&gt;DNEG Careers&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Framestore&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.framestore.com/&#34;&gt;www.framestore.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;London&lt;/td&gt;
+&lt;td&gt;UK&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.framestore.com/careers/listings&#34;&gt;Framestore Job listings&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Framestore&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.framestore.com/&#34;&gt;www.framestore.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Pune&lt;/td&gt;
+&lt;td&gt;IN&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.framestore.com/careers/listings&#34;&gt;Framestore Job listings&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Framestore&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.framestore.com/&#34;&gt;www.framestore.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Montreal&lt;/td&gt;
+&lt;td&gt;CA&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.framestore.com/careers/listings&#34;&gt;Framestore Job listings&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Sony Pictures Imageworks&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.imageworks.com/&#34;&gt;www.imageworks.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Vancouver&lt;/td&gt;
+&lt;td&gt;CA&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.imageworks.com/job-postings&#34;&gt;Imageworks job postings&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;DreamWorks Animation&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.dreamworksanimation.com/&#34;&gt;www.dreamworksanimation.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;California&lt;/td&gt;
+&lt;td&gt;US&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://sjobs.brassring.com/TGnewUI/Search/Home/HomeWithPreLoad?partnerid=25354&amp;amp;siteid=5108&amp;amp;PageType=searchResults&amp;amp;SearchType=linkquery&amp;amp;LinkID=3947569#keyWordSearch=&amp;amp;locationSearch=&#34;&gt;NBCUniversal jobs&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Moving Picture Company&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.moving-picture.com/&#34;&gt;www.moving-picture.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Vancouver&lt;/td&gt;
+&lt;td&gt;CA&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.thefocus.com/vacancies?company=5&#34;&gt;Technicolor Vacancies&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Moving Picture Company&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.moving-picture.com/&#34;&gt;www.moving-picture.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Montreal&lt;/td&gt;
+&lt;td&gt;CA&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.thefocus.com/vacancies?company=5&#34;&gt;Technicolor Vacancies&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Moving Picture Company&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.moving-picture.com/&#34;&gt;www.moving-picture.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;London&lt;/td&gt;
+&lt;td&gt;UK&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.thefocus.com/vacancies?company=5&#34;&gt;Technicolor Vacancies&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Moving Picture Company&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.moving-picture.com/&#34;&gt;www.moving-picture.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Bengaluru&lt;/td&gt;
+&lt;td&gt;IN&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.thefocus.com/vacancies?company=5&#34;&gt;Technicolor Vacancies&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;The Mill&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.themill.com/&#34;&gt;www.themill.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;London&lt;/td&gt;
+&lt;td&gt;UK&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.thefocus.com/vacancies?company=7&#34;&gt;Technicolor Vacancies&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;The Mill&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.themill.com/&#34;&gt;www.themill.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Montreal&lt;/td&gt;
+&lt;td&gt;CA&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.thefocus.com/vacancies?company=7&#34;&gt;Technicolor Vacancies&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;The Mill&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.themill.com/&#34;&gt;www.themill.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Adelaide&lt;/td&gt;
+&lt;td&gt;AU&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.thefocus.com/vacancies?company=7&#34;&gt;Technicolor Vacancies&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Technicolor&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.technicolor.com/&#34;&gt;www.technicolor.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;London&lt;/td&gt;
+&lt;td&gt;UK&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.thefocus.com/vacancies?company=1&#34;&gt;Technicolor Vacancies&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Mikros Animation&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.mikrosimage-animation.eu/&#34;&gt;www.mikrosimage-animation.eu&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Paris&lt;/td&gt;
+&lt;td&gt;FR&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.thefocus.com/vacancies?company=3&#34;&gt;Technicolor Vacancies&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;MR. X&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.mrxfx.com/&#34;&gt;www.mrxfx.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Toronto&lt;/td&gt;
+&lt;td&gt;CA&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.thefocus.com/vacancies?company=4&#34;&gt;Technicolor Vacancies&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Illumination&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.illumination.com/&#34;&gt;www.illumination.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Paris&lt;/td&gt;
+&lt;td&gt;FR&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.illuminationmacguff.com/careers-others.php&#34;&gt;illuminationmacguff careers&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Animal Logic&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.animallogic.com/&#34;&gt;www.animallogic.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Sydney&lt;/td&gt;
+&lt;td&gt;AU&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.animallogic.com/careers/jobs/&#34;&gt;Animal Logic Careers&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Animal Logic&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.animallogic.com/&#34;&gt;www.animallogic.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Vancouver&lt;/td&gt;
+&lt;td&gt;CA&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.animallogic.com/careers/jobs/&#34;&gt;Animal Logic Careers&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Image Engine&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://image-engine.com/&#34;&gt;image-engine.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Vancouver&lt;/td&gt;
+&lt;td&gt;CA&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://jobs.image-engine.com/find-a-job/&#34;&gt;Image Engine Jobs&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Cinesite&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cinesite.com/&#34;&gt;www.cinesite.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;London&lt;/td&gt;
+&lt;td&gt;UK&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cinesite.com/job-vacancies/&#34;&gt;Cinesite Jobs&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Cinesite&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cinesite.com/&#34;&gt;www.cinesite.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Vancouver&lt;/td&gt;
+&lt;td&gt;CA&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cinesite.com/job-vacancies/&#34;&gt;Cinesite Jobs&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Cinesite&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cinesite.com/&#34;&gt;www.cinesite.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Montreal&lt;/td&gt;
+&lt;td&gt;CA&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cinesite.com/job-vacancies/&#34;&gt;Cinesite Jobs&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Trixter&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.trixter.de/&#34;&gt;www.trixter.de&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Berlin&lt;/td&gt;
+&lt;td&gt;DE&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.trixter.de/jobs/&#34;&gt;Trixter Jobs&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Method&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.methodstudios.com/&#34;&gt;www.methodstudios.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Vancouver&lt;/td&gt;
+&lt;td&gt;CA&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.methodstudios.com/en/careers-landing/search/&#34;&gt;Method Jobs&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Method&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.methodstudios.com/&#34;&gt;www.methodstudios.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Montreal&lt;/td&gt;
+&lt;td&gt;CA&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.methodstudios.com/en/careers-landing/search/&#34;&gt;Method Jobs&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Method&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.methodstudios.com/&#34;&gt;www.methodstudios.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Melbourne&lt;/td&gt;
+&lt;td&gt;AU&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.methodstudios.com/en/careers-landing/search/&#34;&gt;Method Jobs&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Base FX&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.base-fx.com/&#34;&gt;www.base-fx.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Beijing&lt;/td&gt;
+&lt;td&gt;CN&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.base-fx.com/jobs/&#34;&gt;Base Jobs&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Base FX&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.base-fx.com/&#34;&gt;www.base-fx.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Kuala Lumpur&lt;/td&gt;
+&lt;td&gt;MY&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.base-fx.com/jobs/&#34;&gt;Base Jobs&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Scanline VFX&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.scanlinevfx.com/&#34;&gt;www.scanlinevfx&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Munich&lt;/td&gt;
+&lt;td&gt;DE&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.scanlinevfx.com/vancouver-la-careers&#34;&gt;Scanline Careers&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Scanline VFX&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.scanlinevfx.com/&#34;&gt;www.scanlinevfx&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Vancouver&lt;/td&gt;
+&lt;td&gt;CA&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.scanlinevfx.com/vancouver-la-careers&#34;&gt;Scanline Careers&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Scanline VFX&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.scanlinevfx.com/&#34;&gt;www.scanlinevfx&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Montreal&lt;/td&gt;
+&lt;td&gt;CA&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.scanlinevfx.com/vancouver-la-careers&#34;&gt;Scanline Careers&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Digital Domain&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.digitaldomain.com/&#34;&gt;www.digitaldomain.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Vancouver&lt;/td&gt;
+&lt;td&gt;CA&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://careers.digitaldomain.com/&#34;&gt;Digital Domain Careers&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Atomic Cartoons&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://atomiccartoons.com/&#34;&gt;atomiccartoons.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Vancouver&lt;/td&gt;
+&lt;td&gt;CA&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://atomiccartoons.com/careers/&#34;&gt;Atomic Cartoons Careers&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Artifex Studios&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.artifexstudios.com/&#34;&gt;www.artifexstudios.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Vancouver&lt;/td&gt;
+&lt;td&gt;CA&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.artifexstudios.com/jobs&#34;&gt;Artifex Jobs&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Encore VFX&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.encorepost.com/&#34;&gt;www.encorepost.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Vancouver&lt;/td&gt;
+&lt;td&gt;CA&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Zoic Studios&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.zoicstudios.com/&#34;&gt;www.zoicstudios.com&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Vancouver&lt;/td&gt;
+&lt;td&gt;CA&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://zoicstudios.applytojob.com/&#34;&gt;Zoic Jobs&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;/div&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
