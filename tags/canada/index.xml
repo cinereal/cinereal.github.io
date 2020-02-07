@@ -6,10 +6,19 @@
     <description>Recent content in Canada on CineReal.info</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Feb 2020 00:04:47 -0800</lastBuildDate>
+    <lastBuildDate>Thu, 06 Feb 2020 23:25:57 -0800</lastBuildDate>
     
 	<atom:link href="http://cinereal.info/tags/canada/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Vancouver</title>
+      <link>http://cinereal.info/photography/vancouver/</link>
+      <pubDate>Thu, 06 Feb 2020 23:25:57 -0800</pubDate>
+      
+      <guid>http://cinereal.info/photography/vancouver/</guid>
+      <description>&lt;p&gt;Various shots of Vancouver in the evening.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>VanDusen Festival Of Lights</title>
