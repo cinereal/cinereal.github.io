@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vancouver on CineReal.info</title>
-    <link>http://cinereal.info/tags/vancouver/</link>
+    <link>https://cinereal.info/tags/vancouver/</link>
     <description>Recent content in Vancouver on CineReal.info</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 06 Feb 2020 23:25:57 -0800</lastBuildDate>
     
-	<atom:link href="http://cinereal.info/tags/vancouver/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://cinereal.info/tags/vancouver/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Vancouver</title>
-      <link>http://cinereal.info/photography/vancouver/</link>
+      <link>https://cinereal.info/photography/vancouver/</link>
       <pubDate>Thu, 06 Feb 2020 23:25:57 -0800</pubDate>
       
-      <guid>http://cinereal.info/photography/vancouver/</guid>
+      <guid>https://cinereal.info/photography/vancouver/</guid>
       <description>&lt;p&gt;Various shots of Vancouver in the evening.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>VanDusen Festival Of Lights</title>
-      <link>http://cinereal.info/photography/vandusen/</link>
+      <link>https://cinereal.info/photography/vandusen/</link>
       <pubDate>Thu, 06 Feb 2020 00:04:47 -0800</pubDate>
       
-      <guid>http://cinereal.info/photography/vandusen/</guid>
+      <guid>https://cinereal.info/photography/vandusen/</guid>
       <description>&lt;p&gt;We made a trip to the VanDusen Festival Of Lights in early January.&lt;/p&gt;</description>
     </item>
     
